@@ -25,8 +25,9 @@ df_reshaped = pd.read_csv('data/action_inference.csv')
 # Sidebar
 with st.sidebar:
     st.title('Wand Activities')
-    
-    activity_list = list(df_reshaped.activity_id.sort_values(by="activity_id", ascending=True).unique())[::-1]
+
+    df_sorted = df_reshaped.sort_values(by="activity_id", ascending=True)
+    activity_list = list(df_sorted.unique())[::-1]
     
     selected_activity = st.selectbox('Select an activity', activity_list)
     df_selected_activity = df_reshaped[df_reshaped.activity_id == selected_activity]
