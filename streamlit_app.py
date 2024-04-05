@@ -144,7 +144,7 @@ with col[0]:
 
     total_event_count = df['Event Count'].sum()
     total_wand_count = df['Wand Count'].sum()
-    selected_activity_count = df_selected_activity_sorted.groupby(by='activity_id').sum()
+    selected_activity_count = df_selected_activity_sorted['Event Count].sum()
     #activity_name = df_selected_activity_sorted.activity_id[0]
 
     print(selected_activity_count, total_event_count) #, activity_name)
