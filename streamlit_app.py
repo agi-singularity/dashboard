@@ -144,6 +144,8 @@ with col[0]:
     
     selected_activity_count = df_selected_activity_sorted.groupby(by='activity_id').sum()
     activity_name = df_selected_activity_sorted.activity_id[0]
+
+    print(selected_activity_count, activity_name)
     
     # df_population_difference_sorted = calculate_population_difference(df_reshaped, selected_year)
 
@@ -167,7 +169,7 @@ with col[0]:
     #     last_state_delta = ''
     # st.metric(label=last_state_name, value=last_state_population, delta=last_state_delta)
 
-    st.metric(label=activity_name, value=selected_activity_count)
+    st.metric(label=activity_name, value=selected_activity_count, delta=None)
                                                                   
     st.markdown('#### States Migration')
 
