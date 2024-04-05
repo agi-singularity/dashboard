@@ -171,7 +171,7 @@ with col[0]:
     #     last_state_delta = ''
     # st.metric(label=last_state_name, value=last_state_population, delta=last_state_delta)
 
-    st.metric(label=activity_name, value=selected_activity_count, delta=None)
+    st.metric(label=selected_activity, value=selected_activity_count, delta=None)
                                                                   
     st.markdown('#### States Migration')
 
