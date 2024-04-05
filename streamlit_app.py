@@ -143,7 +143,7 @@ with col[0]:
     st.markdown('#### Activity Count')
     
     selected_activity_count = df_selected_activity_sorted.groupby(by='activity_id').sum()
-    activity_name = df_selected_activity_sorted.activity_id.first()
+    activity_name = df_selected_activity_sorted.activity_id[0]
     
     # df_population_difference_sorted = calculate_population_difference(df_reshaped, selected_year)
 
