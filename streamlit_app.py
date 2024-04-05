@@ -191,7 +191,7 @@ with col[0]:
     #     states_migration_greater = 0
     #     states_migration_less = 0
         
-    df_activity = round(selected_activity_count/total_event_count, 2)
+    df_activity = round(selected_activity_count/total_event_count, 4)
     #states_migration_greater = round((len(df_greater_50000)/df_population_difference_sorted.states.nunique())*100)
     donut_chart_greater = make_donut(df_activity, 'Activity Percentage', 'green')
     #donut_chart_less = make_donut(states_migration_less, 'Outbound Migration', 'red')
