@@ -27,7 +27,7 @@ with st.sidebar:
     st.title('Wand Activities')
 
     df_sorted = df_reshaped.sort_values(by="activity_id", ascending=True)
-    activity_list = list(df_sorted.unique())[::-1]
+    activity_list = list(df_sorted.activity_id.unique())[::-1]
     
     selected_activity = st.selectbox('Select an activity', activity_list)
     df_selected_activity = df_reshaped[df_reshaped.activity_id == selected_activity]
