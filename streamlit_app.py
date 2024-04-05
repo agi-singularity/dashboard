@@ -140,31 +140,35 @@ def calculate_population_difference(input_df, input_year):
 col = st.columns((1.5, 4.5, 2), gap='medium')
 
 with col[0]:
-    st.markdown('#### Gains/Losses')
-
-    df_population_difference_sorted = calculate_population_difference(df_reshaped, selected_year)
-
-    if selected_year > 2010:
-        first_state_name = df_population_difference_sorted.states.iloc[0]
-        first_state_population = format_number(df_population_difference_sorted.population.iloc[0])
-        first_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[0])
-    else:
-        first_state_name = '-'
-        first_state_population = '-'
-        first_state_delta = ''
-    st.metric(label=first_state_name, value=first_state_population, delta=first_state_delta)
-
-    if selected_year > 2010:
-        last_state_name = df_population_difference_sorted.states.iloc[-1]
-        last_state_population = format_number(df_population_difference_sorted.population.iloc[-1])   
-        last_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[-1])   
-    else:
-        last_state_name = '-'
-        last_state_population = '-'
-        last_state_delta = ''
-    st.metric(label=last_state_name, value=last_state_population, delta=last_state_delta)
-
+    st.markdown('#### Activity Count')
     
+    selected_activity_count = df_selected_activity_sorted.groupby(by='activity_id).sum()
+    activity_name = df_selected_activity_sorted.activity_id.first()
+    
+    # df_population_difference_sorted = calculate_population_difference(df_reshaped, selected_year)
+
+    # if selected_year > 2010:
+    #     first_state_name = df_population_difference_sorted.states.iloc[0]
+    #     first_state_population = format_number(df_population_difference_sorted.population.iloc[0])
+    #     first_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[0])
+    # else:
+    #     first_state_name = '-'
+    #     first_state_population = '-'
+    #     first_state_delta = ''
+    # st.metric(label=first_state_name, value=first_state_population, delta=first_state_delta)
+
+    # if selected_year > 2010:
+    #     last_state_name = df_population_difference_sorted.states.iloc[-1]
+    #     last_state_population = format_number(df_population_difference_sorted.population.iloc[-1])   
+    #     last_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[-1])   
+    # else:
+    #     last_state_name = '-'
+    #     last_state_population = '-'
+    #     last_state_delta = ''
+    # st.metric(label=last_state_name, value=last_state_population, delta=last_state_delta)
+
+    st.metric(label=activity_name, value=selected_activity_count)
+                                                                  
     st.markdown('#### States Migration')
 
     if selected_year > 2010:
