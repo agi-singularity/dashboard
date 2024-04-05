@@ -173,7 +173,7 @@ with col[0]:
 
     st.metric(label=selected_activity, value=selected_activity_count, delta=None)
                                                                   
-    st.markdown('#### States Migration')
+    st.markdown('#### Activity Percentage')
 
     # if selected_year > 2010:
     #     # Filter states with population difference > 50000
@@ -198,9 +198,9 @@ with col[0]:
 
     migrations_col = st.columns((0.2, 1, 0.2))
     with migrations_col[1]:
-        st.write('Inbound')
+        st.write('All Books')
         st.altair_chart(donut_chart_greater)
-        st.write('Outbound')
+        st.write('This Book')
         st.altair_chart(donut_chart_less)
 
 with col[1]:
