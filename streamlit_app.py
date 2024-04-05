@@ -19,7 +19,7 @@ alt.themes.enable("dark")
 #######################
 # Load data
 df_reshaped = pd.read_csv('data/action_inference.csv')
-
+df = df_reshaped
 
 #######################
 # Sidebar
