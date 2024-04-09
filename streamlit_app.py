@@ -215,7 +215,7 @@ with col[1]:
 with col[2]:
     st.markdown('#### Top Activities')
 
-    st.dataframe(df_wand_sorted,
+    st.dataframe(df_selected_activity_sorted,
                  column_order=("action_data", "Wand Count", "Event Count"),
                  hide_index=True,
                  width=None,
