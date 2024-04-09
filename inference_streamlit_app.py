@@ -26,13 +26,13 @@ df = pd.read_csv('data/nwu_inference_slim.csv')
 with st.sidebar:
     st.title('Wand Activities')
     
-    df_wand_sorted = df.sort_values(by="Wand Count", ascending=False)
+    df_action_sorted = df.sort_values(by="action_data", ascending=False)
     df_sorted = df.sort_values(by="activity_id", ascending=True)
     activity_list = list(df_sorted.activity_id.unique()) #[::-1]
     
     selected_activity = st.selectbox('Select an activity', activity_list)
     df_selected_activity = df[df.activity_id == selected_activity]
-    df_selected_activity_sorted = df_selected_activity.sort_values(by="Wand Count", ascending=False)
+    df_selected_activity_sorted = df_selected_activity.sort_values(by="action_data", ascending=False)
 
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
     selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
