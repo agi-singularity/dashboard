@@ -199,7 +199,7 @@ with col[0]:
 
     migrations_col = st.columns((0.2, 1, 0.2))
     with migrations_col[1]:
-        st.write('Inbound')
+        st.write('Events')
         st.altair_chart(donut_chart_greater)
         st.write('Wands')
         st.altair_chart(donut_chart_less)
