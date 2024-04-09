@@ -157,7 +157,7 @@ with col[0]:
     # #activity_name = df_selected_activity_sorted.activity_id[0]
     activity_shape = df_selected_activity.shape
     action_shape = df_selected_action.shape
-    wand_shape df_selected_wand.shape
+    wand_shape = df_selected_wand.shape
     
     print(activity_shape, action_shape, wand_shape)
     
