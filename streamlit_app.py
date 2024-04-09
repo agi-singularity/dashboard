@@ -25,7 +25,8 @@ df = df_reshaped
 # Sidebar
 with st.sidebar:
     st.title('Wand Activities')
-
+    
+    df_wand_sorted = df_reshaped.sort_values(by="Wand Count", ascending=False)
     df_sorted = df_reshaped.sort_values(by="activity_id", ascending=True)
     activity_list = list(df_sorted.activity_id.unique()) #[::-1]
     
@@ -214,9 +215,9 @@ with col[1]:
 with col[2]:
     st.markdown('#### Top Activities')
 
-    st.dataframe(df,
-                 column_order=("Wand Count", "Event Count"),
-                 hide_index=True,
+    st.dataframe(df_wand_sorted,
+                 column_order=("activity_id", "Wand Count", "Event Count"),
+                 hide_index=False,
                  width=None,
                  column_config={
                     "Activity": st.column_config.TextColumn(
