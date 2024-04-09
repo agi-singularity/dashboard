@@ -32,7 +32,7 @@ with st.sidebar:
     
     selected_activity = st.selectbox('Select an activity', activity_list)
     df_selected_activity = df_reshaped[df_reshaped.activity_id == selected_activity]
-    df_selected_activity_sorted = df_selected_activity.sort_values(by="activity_id", ascending=True)
+    df_selected_activity_sorted = df_selected_activity.sort_values(by="Wand Count", ascending=False)
 
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
     selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
