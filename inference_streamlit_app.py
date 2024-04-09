@@ -155,13 +155,14 @@ with col[0]:
     # total_wand_count = df['Wand Count'].sum()
     # selected_activity_count = df_selected_activity_sorted['Event Count'].sum()
     # #activity_name = df_selected_activity_sorted.activity_id[0]
+    
     activity_shape = df_selected_activity.shape
     action_shape = df_selected_action.shape
     wand_shape = df_selected_wand.shape
     
     print(activity_shape, action_shape, wand_shape)
     
-    st.metric(label=selected_activity, value=selected_activity_count, delta=None)
+    st.metric(label=selected_activity, value=activity_shape, delta=None)
                                                                   
     st.markdown('#### Activity Percentage')
 
