@@ -216,8 +216,8 @@ with col[2]:
     st.markdown('#### Top Activities')
 
     st.dataframe(df_wand_sorted,
-                 column_order=("activity_id", "Wand Count", "Event Count"),
-                 hide_index=False,
+                 column_order=("action_data", "Wand Count", "Event Count"),
+                 hide_index=True,
                  width=None,
                  column_config={
                     "Activity": st.column_config.TextColumn(
