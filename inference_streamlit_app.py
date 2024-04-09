@@ -34,11 +34,11 @@ with st.sidebar:
     df_selected_activity = df[df.activity_id == selected_activity]
     df_selected_activity_sorted = df_selected_activity.sort_values(by="action_data", ascending=False)
 
-    action_list = list(df_sorted.action_data.unique())
+    action_list = list(df_selected_activity_sorted.action_data.unique())
     selected_action = st.selectbox('Select Action Data', action_list)
     df_selected_action = df[df.action_data == selected_action]
 
-    wand_list = list(df_sorted.wand_identifier.unique())
+    wand_list = list(df_selected_action.wand_identifier.unique())
     selected_wand = st.selectbox('Select Wand', wand_list)
     df_selected_wand = df[df.wand_identifier == selected_wand]
     
