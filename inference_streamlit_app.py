@@ -35,11 +35,11 @@ with st.sidebar:
     df_selected_activity_sorted = df_selected_activity.sort_values(by="action_data", ascending=False)
 
     action_list = list(df_sorted.action_data.unique())
-    selected_action = st.selectbox('Select an activity', action_list)
+    selected_action = st.selectbox('Select action data', action_list)
     df_selected_action = df[df.action_data == selected_action]
 
     wand_list = list(df_sorted.wand_identifier.unique())
-    selected_wand = st.selectbox('Select an activity', wand_list)
+    selected_wand = st.selectbox('Select a wand', wand_list)
     df_selected_wand = df[df.wand_identifier == selected_wand]
     
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
@@ -158,28 +158,6 @@ with col[0]:
 
     print(selected_activity_count, total_event_count) #, activity_name)
     
-    # df_population_difference_sorted = calculate_population_difference(df_reshaped, selected_year)
-
-    # if selected_year > 2010:
-    #     first_state_name = df_population_difference_sorted.states.iloc[0]
-    #     first_state_population = format_number(df_population_difference_sorted.population.iloc[0])
-    #     first_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[0])
-    # else:
-    #     first_state_name = '-'
-    #     first_state_population = '-'
-    #     first_state_delta = ''
-    # st.metric(label=first_state_name, value=first_state_population, delta=first_state_delta)
-
-    # if selected_year > 2010:
-    #     last_state_name = df_population_difference_sorted.states.iloc[-1]
-    #     last_state_population = format_number(df_population_difference_sorted.population.iloc[-1])   
-    #     last_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[-1])   
-    # else:
-    #     last_state_name = '-'
-    #     last_state_population = '-'
-    #     last_state_delta = ''
-    # st.metric(label=last_state_name, value=last_state_population, delta=last_state_delta)
-
     st.metric(label=selected_activity, value=selected_activity_count, delta=None)
                                                                   
     st.markdown('#### Activity Percentage')
