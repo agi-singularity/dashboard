@@ -18,20 +18,20 @@ alt.themes.enable("dark")
 
 #######################
 # Load data
-df_reshaped = pd.read_csv('data/action_inference.csv')
-df = df_reshaped
+df = pd.read_csv('data/nwu_inference_slim.csv')
+#df = df_reshaped
 
 #######################
 # Sidebar
 with st.sidebar:
     st.title('Wand Activities')
     
-    df_wand_sorted = df_reshaped.sort_values(by="Wand Count", ascending=False)
-    df_sorted = df_reshaped.sort_values(by="activity_id", ascending=True)
+    df_wand_sorted = df.sort_values(by="Wand Count", ascending=False)
+    df_sorted = df.sort_values(by="activity_id", ascending=True)
     activity_list = list(df_sorted.activity_id.unique()) #[::-1]
     
     selected_activity = st.selectbox('Select an activity', activity_list)
-    df_selected_activity = df_reshaped[df_reshaped.activity_id == selected_activity]
+    df_selected_activity = df[df.activity_id == selected_activity]
     df_selected_activity_sorted = df_selected_activity.sort_values(by="Wand Count", ascending=False)
 
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
