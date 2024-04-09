@@ -163,6 +163,8 @@ with col[0]:
     print(activity_shape, action_shape, wand_shape)
     
     st.metric(label=selected_activity, value=activity_shape[0], delta=None)
+    st.metric(label=selected_action, value=action_shape[0], delta=None)
+    st.metric(label=selected_wand, value=wand_shape[0], delta=None)
                                                                   
     st.markdown('#### Activity Percentage')
 
