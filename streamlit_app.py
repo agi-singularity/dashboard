@@ -212,21 +212,21 @@ with col[1]:
     
 
 with col[2]:
-    st.markdown('#### Top States')
+    st.markdown('#### Top Activities')
 
-    st.dataframe(df_selected_year_sorted,
-                 column_order=("states", "population"),
+    st.dataframe(df,
+                 column_order=("Wand Count", "Event Count"),
                  hide_index=True,
                  width=None,
                  column_config={
-                    "states": st.column_config.TextColumn(
-                        "States",
+                    "Activity": st.column_config.TextColumn(
+                        "activity_id",
                     ),
-                    "population": st.column_config.ProgressColumn(
-                        "Population",
+                    "Wand": st.column_config.ProgressColumn(
+                        "Wand Count",
                         format="%f",
                         min_value=0,
-                        max_value=max(df_selected_year_sorted.population),
+                        max_value=max(df['Wand Count']),
                      )}
                  )
     
