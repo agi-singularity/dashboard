@@ -36,11 +36,13 @@ with st.sidebar:
 
     action_list = list(df_selected_activity_sorted.action_data.unique())
     selected_action = st.selectbox('Select Action Data', action_list)
-    df_selected_action = df[df.action_data == selected_action]
+    #df_selected_action = df[df.action_data == selected_action]
+    df_selected_action = df_selected_activity[df_selected_activity.action_data == selected_action]
 
     wand_list = list(df_selected_action.wand_identifier.unique())
     selected_wand = st.selectbox('Select Wand', wand_list)
-    df_selected_wand = df[df.wand_identifier == selected_wand]
+    df_selected_wand = df_selected_action[df_selected_action.wand_identifier == selected_wand]
+    #df_selected_wand = df[df.wand_identifier == selected_wand]
     
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
     selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
@@ -151,7 +153,7 @@ col = st.columns((1.5, 4.5, 2), gap='medium')
 with col[0]:
     st.markdown('#### Activity Count')
 
-    # total_event_count = df['Event Count'].sum()
+    total_event_count = df.shape[0]
     # total_wand_count = df['Wand Count'].sum()
     # selected_activity_count = df_selected_activity_sorted['Event Count'].sum()
     # #activity_name = df_selected_activity_sorted.activity_id[0]
@@ -168,24 +170,9 @@ with col[0]:
                                                                   
     st.markdown('#### Activity Percentage')
 
-    # if selected_year > 2010:
-    #     # Filter states with population difference > 50000
-    #     # df_greater_50000 = df_population_difference_sorted[df_population_difference_sorted.population_difference_absolute > 50000]
-    #     df_greater_50000 = selected_activity_count/total_event_count
-    #     #df_greater_50000 = df_population_difference_sorted[df_population_difference_sorted.population_difference > 50000]
-    #     #df_less_50000 = df_population_difference_sorted[df_population_difference_sorted.population_difference < -50000]
         
-    #     # % of States with population difference > 50000
-    #     states_migration_greater = round((len(df_greater_50000)/df_population_difference_sorted.states.nunique())*100)
-    #     states_migration_less = round((len(df_less_50000)/df_population_difference_sorted.states.nunique())*100)
-    #     donut_chart_greater = make_donut(states_migration_greater, 'Inbound Migration', 'green')
-    #     donut_chart_less = make_donut(states_migration_less, 'Outbound Migration', 'red')
-    # else:
-    #     states_migration_greater = 0
-    #     states_migration_less = 0
-        
-    df_activity = round(selected_activity_count/total_event_count, 4)
-    wand_activity = round(total_wand_count/total_event_count, 4)
+    df_activity = round(activity_shape[0]/total_event_count, 4)
+    wand_activity = round(wand_shape[0]/total_event_count, 4)
     #states_migration_greater = round((len(df_greater_50000)/df_population_difference_sorted.states.nunique())*100)
     donut_chart_greater = make_donut(df_activity, 'Activity Percentage', 'green')
     donut_chart_less = make_donut(wand_activity, 'Wands/Events', 'red')
