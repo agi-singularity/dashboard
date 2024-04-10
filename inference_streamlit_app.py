@@ -246,10 +246,10 @@ with col[2]:
             alt.Y(
                 "temp_max:Q",
                 title="Maximum Daily Temperature (C)",
-                scale=alt.Scale(domain=[-5, 40]),
+                #scale=alt.Scale(domain=[-5, 40]),
             ),
             color=alt.condition(brush, color, alt.value("lightgray")),
-            size=alt.Size("precipitation:Q", scale=alt.Scale(range=[5, 200])),
+            size=alt.Size("precipitation:Q"), #, scale=alt.Scale(range=[5, 200])),
         )
         .properties(width=550, height=300)
         .add_selection(brush)
