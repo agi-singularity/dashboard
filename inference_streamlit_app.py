@@ -172,15 +172,18 @@ with col[0]:
 
         
     df_activity = round(activity_shape[0]/total_event_count, 4)
+    action_activity = round(action_shape[0]/total_event_count, 4)
     wand_activity = round(wand_shape[0]/total_event_count, 4)
     #states_migration_greater = round((len(df_greater_50000)/df_population_difference_sorted.states.nunique())*100)
     donut_chart_greater = make_donut(df_activity, 'Activity Percentage', 'green')
-    donut_chart_less = make_donut(wand_activity, 'Wands/Events', 'red')
+    donut_chart_less = make_donut(action_activity, 'Action Data Percentage', 'red')
 
     migrations_col = st.columns((0.2, 1, 0.2))
     with migrations_col[1]:
         st.write('Events')
         st.altair_chart(donut_chart_greater)
+        st.write('Wands')
+        st.altair_chart(donut_chart_less)
         st.write('Wands')
         st.altair_chart(donut_chart_less)
 
