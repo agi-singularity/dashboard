@@ -250,6 +250,8 @@ with tab4:
                 <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
             </svg>
         """
+
+        svg = 'data/opg1_red_rgb_alz_p2425.svg'
         st.write('## Rendering an SVG in Streamlit')
     
         st.write('### SVG Input')
@@ -260,6 +262,7 @@ with tab4:
     
     if __name__ == '__main__':
         render_svg_example()
+
 with tab5:
     #######################
     source = wdf
