@@ -222,7 +222,7 @@ with col[2]:
     import altair as alt
     import pandas as pd
     import streamlit as st
-    from vega_datasets import data
+    #from vega_datasets import data
     
     # @st.cache_data
     # def get_data():
