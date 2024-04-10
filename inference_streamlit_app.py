@@ -196,16 +196,19 @@ with col[1]:
     activity_id = df1s['activity_id']
     action = df1s['action']
     action_data = df1s['action_data']
-    session = df1s['session_id']
-    plt.figure(figsize=(15,10))
+    session = df1s['session_id'
+    fig, ax = plt.subplots()]
+    #plt.figure(figsize=(15,10))
     #plt.get_autoscale_on()
     plt.plot(activity_id, action, label='action')
     #plt.plot(activity_id, action_data, label='action_data')
     plt.bar(activity_id, action_data)
     plt.tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
+    fig, ax = plt.subplots()]
+    st.pyplot(fig)
     
-    heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
-    st.altair_chart(heatmap, use_container_width=True)
+    #heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
+    #st.altair_chart(heatmap, use_container_width=True)
     
 
 with col[2]:
