@@ -190,7 +190,7 @@ with col[0]:
         st.altair_chart(donut_chart_less)
 
 with col[1]:
-    st.markdown('#### Unique Wand vs Events')
+    st.markdown('#### Unique Activities, Actions, etc')
     
     df1s = df_selected_activity_sorted.groupby(by='action_data').nunique()
     activity_id = df1s['activity_id']
@@ -219,7 +219,7 @@ with col[1]:
 
 with col[2]:
     chart_data = df_selected_wand.groupby(by='activity_id').nunique()
-    st.scatter_chart(data=chart_data, width=1000, height=1000, use_container_width=False)
+    st.scatter_chart(data=chart_data, y=['action', 'session'], width=1000, height=1000, use_container_width=False)
     
     import altair as alt
     import streamlit as st
