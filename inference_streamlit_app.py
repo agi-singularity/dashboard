@@ -211,23 +211,23 @@ with col[1]:
     #st.altair_chart(heatmap, use_container_width=True)
     
 
-with col[2]:
-    st.markdown('#### Top Activities')
+# with col[2]:
+#     st.markdown('#### Top Activities')
 
-    st.dataframe(df_selected_activity_sorted,
-                 column_order=("action_data", "Wand Count", "Event Count"),
-                 hide_index=True,
-                 width=None,
-                 column_config={
-                    "Activity": st.column_config.TextColumn(
-                        "activity_id",
-                    ),
-                    "Wand": st.column_config.ProgressColumn(
-                        "Wand Count",
-                        format="%f",
-                        min_value=0,
-                        max_value=max(df['Wand Count']),
-                     )}
-                 )
+#     st.dataframe(df_selected_activity_sorted,
+#                  column_order=("action_data", "Wand Count", "Event Count"),
+#                  hide_index=True,
+#                  width=None,
+#                  column_config={
+#                     "Activity": st.column_config.TextColumn(
+#                         "activity_id",
+#                     ),
+#                     "Wand": st.column_config.ProgressColumn(
+#                         "Wand Count",
+#                         format="%f",
+#                         min_value=0,
+#                         max_value=max(df['activity_id']),
+#                      )}
+#                  )
     
    
