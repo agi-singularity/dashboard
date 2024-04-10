@@ -43,8 +43,8 @@ with st.sidebar:
 
     wand_list = list(df_selected_action.wand_identifier.unique())
     selected_wand = st.selectbox('Select Wand', wand_list)
-    df_selected_wand = df_selected_action[df_selected_action.wand_identifier == selected_wand]
-    #df_selected_wand = df[df.wand_identifier == selected_wand]
+    #df_selected_wand = df_selected_action[df_selected_action.wand_identifier == selected_wand]
+    df_selected_wand = df[df.wand_identifier == selected_wand]
     
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
     selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
@@ -284,7 +284,7 @@ with col[2]:
     st.altair_chart(df1s)
     
     #######################
-    source = df1s
+    source = df_selected_wand
     
     scale = alt.Scale(
         domain=["activity_id", "action", "event_id", "session_id", "headphone_state"],
