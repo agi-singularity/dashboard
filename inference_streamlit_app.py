@@ -222,6 +222,9 @@ with col[2]:
     import altair as alt
     import pandas as pd
     import streamlit as st
+
+    st.altair_chart(df1s)
+    
     #from vega_datasets import data
     
     # @st.cache_data
