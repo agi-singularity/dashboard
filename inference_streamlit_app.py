@@ -282,7 +282,64 @@ with col[2]:
         st.altair_chart(chart, theme=None, use_container_width=True)
    
     st.altair_chart(df1s)
+
+source = data.seattle_weather()
     
+    scale = alt.Scale(
+        domain=["sun", "fog", "drizzle", "rain", "snow"],
+        range=["#e7ba52", "#a7a7a7", "#aec7e8", "#1f77b4", "#9467bd"],
+    )
+    color = alt.Color("weather:N", scale=scale)
+    
+    # We create two selections:
+    # - a brush that is active on the top panel
+    # - a multi-click that is active on the bottom panel
+    brush = alt.selection_interval(encodings=["x"])
+    click = alt.selection_multi(encodings=["color"])
+    
+    # Top panel is scatter plot of temperature vs time
+    points = (
+        alt.Chart()
+        .mark_point()
+        .encode(
+            alt.X("monthdate(date):T", title="Date"),
+            alt.Y(
+                "temp_max:Q",
+                title="Maximum Daily Temperature (C)",
+                scale=alt.Scale(domain=[-5, 40]),
+            ),
+            color=alt.condition(brush, color, alt.value("lightgray")),
+            size=alt.Size("precipitation:Q", scale=alt.Scale(range=[5, 200])),
+        )
+        .properties(width=550, height=300)
+        .add_selection(brush)
+        .transform_filter(click)
+    )
+    
+    # Bottom panel is a bar chart of weather type
+    bars = (
+        alt.Chart()
+        .mark_bar()
+        .encode(
+            x="count()",
+            y="weather:N",
+            color=alt.condition(click, color, alt.value("lightgray")),
+        )
+        .transform_filter(brush)
+        .properties(
+            width=550,
+        )
+        .add_selection(click)
+    )
+    
+    chart = alt.vconcat(points, bars, data=source, title="Seattle Weather: 2012-2015")
+    
+    tab1, tab2 = st.tabs(["Streamlit theme (default)", "Altair native theme"])
+    
+    with tab1:
+        st.altair_chart(chart, theme="streamlit", use_container_width=True)
+    with tab2:
+        st.altair_chart(chart, theme=None, use_container_width=True)
     #from vega_datasets import data
     
     # @st.cache_data
@@ -297,27 +354,27 @@ with col[2]:
     # chart = get_chart(source)
     
     # Input annotations
-    ANNOTATIONS = [
-        ("Mar 01, 2008", "Pretty good day for GOOG"),
-        ("Dec 01, 2007", "Something's going wrong for GOOG & AAPL"),
-        ("Nov 01, 2008", "Market starts again thanks to..."),
-        ("Dec 01, 2009", "Small crash for GOOG after..."),
-    ]
+    # ANNOTATIONS = [
+    #     ("Mar 01, 2008", "Pretty good day for GOOG"),
+    #     ("Dec 01, 2007", "Something's going wrong for GOOG & AAPL"),
+    #     ("Nov 01, 2008", "Market starts again thanks to..."),
+    #     ("Dec 01, 2009", "Small crash for GOOG after..."),
+    # ]
     
-    # Create a chart with annotations
-    annotations_df = df1s #pd.DataFrame(ANNOTATIONS, columns=["action_data", "activity_id"])
-    #annotations_df.date = pd.to_datetime(annotations_df.date)
-    annotations_df["y"] = 0
-    annotation_layer = (
-        alt.Chart(annotations_df)
-        .mark_text(size=5, text="⬇", dx=0, dy=-10, align="center")
-        .encode(
-            x="action_data:T",
-            y=alt.Y("y:Q"),
-            tooltip=["action_data"],
-        )
-        .interactive()
-    )
+    # # Create a chart with annotations
+    # annotations_df = df1s #pd.DataFrame(ANNOTATIONS, columns=["action_data", "activity_id"])
+    # #annotations_df.date = pd.to_datetime(annotations_df.date)
+    # annotations_df["y"] = 0
+    # annotation_layer = (
+    #     alt.Chart(annotations_df)
+    #     .mark_text(size=5, text="⬇", dx=0, dy=-10, align="center")
+    #     .encode(
+    #         x="action_data:T",
+    #         y=alt.Y("y:Q"),
+    #         tooltip=["action_data"],
+    #     )
+    #     .interactive()
+    # )
     
     # # Display both charts together
     # st.altair_chart((annotation_layer), use_container_width=True)
