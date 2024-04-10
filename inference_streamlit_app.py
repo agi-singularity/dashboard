@@ -225,7 +225,7 @@ with col[2]:
 with col[3]:
     st.markdown('#### Individual Wand Journey Action Data')
     chart_data = df_selected_wand.groupby(by='action_data').nunique()
-    st.bar_chart(data=chart_data, x=['activity_id'], height=700, use_container_width=True)
+    st.bar_chart(data=chart_data, y=['activity_id'], height=700, use_container_width=True)
     
     
     #######################
