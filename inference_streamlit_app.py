@@ -205,7 +205,7 @@ with col[1]:
     plt.bar(activity_id, action_data)
     plt.tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
     fig, ax = plt.subplots()
-    st.pyplot(fig)
+    st.pyplot(plt)
     
     #heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
     #st.altair_chart(heatmap, use_container_width=True)
