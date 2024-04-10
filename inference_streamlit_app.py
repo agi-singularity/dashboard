@@ -195,7 +195,7 @@ with col[1]:
     df1s = df_selected_activity_sorted.groupby(by='action_data').nunique()
     activity_id = df1s['activity_id']
     action = df1s['action']
-    action_data = df1s['action_data']
+    action_data = df1s.index #df1s['action_data']
     session = df1s['session_id']
     # fig, ax = plt.subplots()
     # #plt.figure(figsize=(15,10))
