@@ -245,13 +245,13 @@ with col[2]:
     
     # Create a chart with annotations
     annotations_df = df1s #pd.DataFrame(ANNOTATIONS, columns=["action_data", "activity_id"])
-    annotations_df.date = pd.to_datetime(annotations_df.date)
+    #annotations_df.date = pd.to_datetime(annotations_df.date)
     annotations_df["y"] = 0
     annotation_layer = (
         alt.Chart(annotations_df)
         .mark_text(size=5, text="⬇", dx=0, dy=-10, align="center")
         .encode(
-            x="date:T",
+            x="action_data:T",
             y=alt.Y("y:Q"),
             tooltip=["action_data"],
         )
