@@ -151,7 +151,7 @@ def calculate_population_difference(input_df, input_year):
 #######################
 # Dashboard Main Panel
 
-tab1, tab2, tab3, tab4 = st.tabs(["Overall", "Wand Activities", "Wand Action", "Others"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Overall", "Wand Activities", "Wand Action", "SVG", "Others"])
 with tab1:
 
     col = st.columns((1.2, 6), gap='medium')
@@ -233,7 +233,34 @@ with tab3:
     chart_data = wdf
     st.bar_chart(data=chart_data, y='activity_id', width=5000, use_container_width=False)
     
-with tab4:  
+with tab4:
+    import streamlit as st
+    import base64
+    import textwrap
+    
+    def render_svg(svg):
+        """Renders the given svg string."""
+        b64 = base64.b64encode(svg.encode('utf-8')).decode("utf-8")
+        html = r'<img src="data:image/svg+xml;base64,%s"/>' % b64
+        st.write(html, unsafe_allow_html=True)
+    
+    def render_svg_example():
+        svg = """
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+            </svg>
+        """
+        st.write('## Rendering an SVG in Streamlit')
+    
+        st.write('### SVG Input')
+        st.code(textwrap.dedent(svg), 'svg')
+    
+        st.write('### SVG Output')
+        render_svg(svg)
+    
+    if __name__ == '__main__':
+        render_svg_example()
+with tab5:
     #######################
     source = wdf
     
