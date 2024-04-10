@@ -283,7 +283,7 @@ with col[2]:
    
     st.altair_chart(df1s)
 
-source = data.seattle_weather()
+    source = data.seattle_weather()
     
     scale = alt.Scale(
         domain=["sun", "fog", "drizzle", "rain", "snow"],
