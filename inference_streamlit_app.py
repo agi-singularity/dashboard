@@ -253,12 +253,10 @@ with tab4:
 
         svg_file = 'data/opg1_red_rgb_alz_p2425.svg'
 
-        from xml.dom import minidom
+        import xml.dom.minidom
 
-        doc = minidom.parse(svg_file)  # parseString also exists
-        path_strings = [path.getAttribute('d') for path
-                        in doc.getElementsByTagName('path')]
-        svg = doc.unlink()
+        dom = xml.dom.minidom.parse(svg_file) # or xml.dom.minidom.parseString(xml_string)
+        svg = pretty_xml_as_string = dom.toprettyxml()
         
         st.write('## Rendering an SVG in Streamlit')
     
