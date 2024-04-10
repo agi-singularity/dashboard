@@ -218,8 +218,8 @@ with col[1]:
     st.scatter_chart(data=chart_data, width=1000, height=1000, use_container_width=True)
 
 with col[2]:
-    chart_data = df_selected_wand
-    st.scatter_chart(data=chart_data, x='timestamp', width=1000, height=1000, use_container_width=True)
+    chart_data = df_selected_wand.groupby(by='activity_id').nunique()
+    st.scatter_chart(data=chart_data, width=1000, height=1000, use_container_width=True)
     
     import altair as alt
     import streamlit as st
