@@ -196,8 +196,8 @@ with col[1]:
     activity_id = df1s['activity_id']
     action = df1s['action']
     action_data = df1s['action_data']
-    session = df1s['session_id'
-    fig, ax = plt.subplots()]
+    session = df1s['session_id']
+    fig, ax = plt.subplots()
     #plt.figure(figsize=(15,10))
     #plt.get_autoscale_on()
     plt.plot(activity_id, action, label='action')
