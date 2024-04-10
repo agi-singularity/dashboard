@@ -5,3 +5,4 @@ plotly
 matplotlib
 numpy
 scipy
+vega_datasets
