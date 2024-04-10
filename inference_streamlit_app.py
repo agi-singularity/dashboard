@@ -260,8 +260,8 @@ with tab4:
         
         st.write('## Rendering an SVG in Streamlit')
     
-        st.write('### SVG Input')
-        st.code(textwrap.dedent(svg), 'svg')
+        # st.write('### SVG Input')
+        # st.code(textwrap.dedent(svg), 'svg')
     
         st.write('### SVG Output')
         render_svg(svg)
