@@ -282,14 +282,15 @@ with col[2]:
         st.altair_chart(chart, theme=None, use_container_width=True)
    
     st.altair_chart(df1s)
-
-    source = data.seattle_weather()
+    
+    #######################
+    source = df1s
     
     scale = alt.Scale(
-        domain=["sun", "fog", "drizzle", "rain", "snow"],
+        domain=["activity_id", "action", "event_id", "session_id", "headphone_state"],
         range=["#e7ba52", "#a7a7a7", "#aec7e8", "#1f77b4", "#9467bd"],
     )
-    color = alt.Color("weather:N", scale=scale)
+    color = alt.Color("action:N", scale=scale)
     
     # We create two selections:
     # - a brush that is active on the top panel
@@ -302,10 +303,10 @@ with col[2]:
         alt.Chart()
         .mark_point()
         .encode(
-            alt.X("monthdate(date):T", title="Date"),
+            alt.X("action", title="action"),
             alt.Y(
-                "temp_max:Q",
-                title="Maximum Daily Temperature (C)",
+                "activity_id",
+                title="Activity ID",
                 scale=alt.Scale(domain=[-5, 40]),
             ),
             color=alt.condition(brush, color, alt.value("lightgray")),
@@ -322,7 +323,7 @@ with col[2]:
         .mark_bar()
         .encode(
             x="count()",
-            y="weather:N",
+            y="activity_id",
             color=alt.condition(click, color, alt.value("lightgray")),
         )
         .transform_filter(brush)
@@ -332,7 +333,7 @@ with col[2]:
         .add_selection(click)
     )
     
-    chart = alt.vconcat(points, bars, data=source, title="Seattle Weather: 2012-2015")
+    chart = alt.vconcat(points, bars, data=source, title="Action Data")
     
     tab1, tab2 = st.tabs(["Streamlit theme (default)", "Altair native theme"])
     
