@@ -261,8 +261,8 @@ with col[2]:
         .interactive()
     )
     
-    # Display both charts together
-    st.altair_chart((annotation_layer), use_container_width=True)
+    # # Display both charts together
+    # st.altair_chart((annotation_layer), use_container_width=True)
 
 #     st.markdown('#### Top Activities')
 
