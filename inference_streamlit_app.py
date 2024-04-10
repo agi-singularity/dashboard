@@ -152,6 +152,8 @@ def calculate_population_difference(input_df, input_year):
 # Dashboard Main Panel
 col = st.columns((1, 4, 3, 3), gap='medium')
 
+tab1, tab2, tab3 = st.tabs(["Overall", "Wand Activities", "Wand Action"])
+with tab1:
 with col[0]:
     st.markdown('#### Activity Count')
 
@@ -189,6 +191,7 @@ with col[0]:
         st.write('Wands')
         st.altair_chart(donut_chart_less)
 
+
 with col[1]:
     st.markdown('#### Unique Activities, Actions, etc')
     
@@ -217,12 +220,12 @@ with col[1]:
     #st.scatter_chart(chart_data)
     st.scatter_chart(data=chart_data, height=700, use_container_width=True)
 
-with col[2]:
+with tab2:
     st.markdown('#### Individual Wand Journey Activities')
     chart_data = df_selected_wand.groupby(by='activity_id').nunique()
     st.scatter_chart(data=chart_data, y=['action_data', 'session_id', 'event_id'], height=700, use_container_width=True)
 
-with col[3]:
+with tab3:
     st.markdown('#### Individual Wand Journey Action Data')
     chart_data = df_selected_wand.groupby(by='action_data').nunique()
     st.bar_chart(data=chart_data, y=['activity_id'], height=700, use_container_width=True)
