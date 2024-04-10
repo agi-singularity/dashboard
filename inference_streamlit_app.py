@@ -154,71 +154,72 @@ col = st.columns((1, 4, 3, 3), gap='medium')
 
 tab1, tab2, tab3 = st.tabs(["Overall", "Wand Activities", "Wand Action"])
 with tab1:
-with col[0]:
-    st.markdown('#### Activity Count')
-
-    total_event_count = df.shape[0]
-    # total_wand_count = df['Wand Count'].sum()
-    # selected_activity_count = df_selected_activity_sorted['Event Count'].sum()
-    # #activity_name = df_selected_activity_sorted.activity_id[0]
     
-    activity_shape = df_selected_activity.shape
-    action_shape = df_selected_action.shape
-    wand_shape = df_selected_wand.shape
+    with col[0]:
+        st.markdown('#### Activity Count')
     
-    print(activity_shape, action_shape, wand_shape)
-    
-    st.metric(label=selected_activity, value=activity_shape[0], delta=None)
-    st.metric(label=selected_action, value=action_shape[0], delta=None)
-    st.metric(label=selected_wand, value=wand_shape[0], delta=None)
-                                                                  
-    st.markdown('#### Activity Percentage')
-
+        total_event_count = df.shape[0]
+        # total_wand_count = df['Wand Count'].sum()
+        # selected_activity_count = df_selected_activity_sorted['Event Count'].sum()
+        # #activity_name = df_selected_activity_sorted.activity_id[0]
         
-    df_activity = round(activity_shape[0]/total_event_count, 4)
-    action_activity = round(action_shape[0]/total_event_count, 4)
-    wand_activity = round(wand_shape[0]/total_event_count, 4)
-    #states_migration_greater = round((len(df_greater_50000)/df_population_difference_sorted.states.nunique())*100)
-    donut_chart_greater = make_donut(df_activity, 'Activity Percentage', 'green')
-    donut_chart_less = make_donut(action_activity, 'Action Data Percentage', 'red')
-
-    migrations_col = st.columns((0.2, 1, 0.2))
-    with migrations_col[1]:
-        st.write('Events')
-        st.altair_chart(donut_chart_greater)
-        st.write('Wands')
-        st.altair_chart(donut_chart_less)
-        st.write('Wands')
-        st.altair_chart(donut_chart_less)
-
-
-with col[1]:
-    st.markdown('#### Unique Activities, Actions, etc')
+        activity_shape = df_selected_activity.shape
+        action_shape = df_selected_action.shape
+        wand_shape = df_selected_wand.shape
+        
+        print(activity_shape, action_shape, wand_shape)
+        
+        st.metric(label=selected_activity, value=activity_shape[0], delta=None)
+        st.metric(label=selected_action, value=action_shape[0], delta=None)
+        st.metric(label=selected_wand, value=wand_shape[0], delta=None)
+                                                                      
+        st.markdown('#### Activity Percentage')
     
-    df1s = df_selected_activity_sorted.groupby(by='action_data').nunique()
-    activity_id = df1s['activity_id']
-    wand = df1s['wand_identifier']
-    action = df1s['action']
-    action_data = df1s.index #df1s['action_data']
-    session = df1s['session_id']
-    # fig, ax = plt.subplots()
-    # ax.figure(figsize=(15,10))
-    # ax.get_autoscale_on()
-    # ax.plot(activity_id, action, label='action')
-    # # #plt.plot(activity_id, action_data, label='action_data')
-    # ax.plt.bar(activity_id, action_data)
-    # ax.tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
-    # # fig, ax = plt.subplots()
-    # st.pyplot(fig)
+            
+        df_activity = round(activity_shape[0]/total_event_count, 4)
+        action_activity = round(action_shape[0]/total_event_count, 4)
+        wand_activity = round(wand_shape[0]/total_event_count, 4)
+        #states_migration_greater = round((len(df_greater_50000)/df_population_difference_sorted.states.nunique())*100)
+        donut_chart_greater = make_donut(df_activity, 'Activity Percentage', 'green')
+        donut_chart_less = make_donut(action_activity, 'Action Data Percentage', 'red')
     
-    #heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
-    #st.altair_chart(heatmap, use_container_width=True)
-
-    chart_data = df1s #action_data, wand
+        migrations_col = st.columns((0.2, 1, 0.2))
+        with migrations_col[1]:
+            st.write('Events')
+            st.altair_chart(donut_chart_greater)
+            st.write('Wands')
+            st.altair_chart(donut_chart_less)
+            st.write('Wands')
+            st.altair_chart(donut_chart_less)
     
-    #st.bar_chart(chart_data)
-    #st.scatter_chart(chart_data)
-    st.scatter_chart(data=chart_data, height=700, use_container_width=True)
+    
+    with col[1]:
+        st.markdown('#### Unique Activities, Actions, etc')
+        
+        df1s = df_selected_activity_sorted.groupby(by='action_data').nunique()
+        activity_id = df1s['activity_id']
+        wand = df1s['wand_identifier']
+        action = df1s['action']
+        action_data = df1s.index #df1s['action_data']
+        session = df1s['session_id']
+        # fig, ax = plt.subplots()
+        # ax.figure(figsize=(15,10))
+        # ax.get_autoscale_on()
+        # ax.plot(activity_id, action, label='action')
+        # # #plt.plot(activity_id, action_data, label='action_data')
+        # ax.plt.bar(activity_id, action_data)
+        # ax.tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
+        # # fig, ax = plt.subplots()
+        # st.pyplot(fig)
+        
+        #heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
+        #st.altair_chart(heatmap, use_container_width=True)
+    
+        chart_data = df1s #action_data, wand
+        
+        #st.bar_chart(chart_data)
+        #st.scatter_chart(chart_data)
+        st.scatter_chart(data=chart_data, height=700, use_container_width=True)
 
 with tab2:
     st.markdown('#### Individual Wand Journey Activities')
