@@ -154,7 +154,7 @@ def calculate_population_difference(input_df, input_year):
 tab1, tab2, tab3 = st.tabs(["Overall", "Wand Activities", "Wand Action"])
 with tab1:
 
-    col = st.columns((1, 4, 3, 3), gap='medium')
+    col = st.columns((2, 6), gap='medium')
     with col[0]:
         st.markdown('#### Activity Count')
     
@@ -229,7 +229,7 @@ with tab2:
 with tab3:
     st.markdown('#### Individual Wand Journey Action Data')
     chart_data = df_selected_wand.groupby(by='action_data').nunique()
-    st.bar_chart(data=chart_data, y=['activity_id'], height=700, use_container_width=True)
+    st.bar_chart(data=chart_data, y=['activity_id'], height=700, use_container_width=False)
     
     
     #######################
