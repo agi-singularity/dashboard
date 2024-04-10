@@ -204,7 +204,7 @@ with col[1]:
     ax.plot(activity_id, action, label='action')
     # #plt.plot(activity_id, action_data, label='action_data')
     ax.plt.bar(activity_id, action_data)
-    ax..tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
+    ax.tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
     # fig, ax = plt.subplots()
     st.pyplot(fig)
     
