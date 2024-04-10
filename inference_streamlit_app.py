@@ -225,7 +225,7 @@ with col[2]:
 with col[3]:
     st.markdown('#### Individual Wand Journey Action Data')
     chart_data = df_selected_wand.groupby(by='action_data').nunique()
-    st.scatter_chart(data=chart_data, y=['activity_id', 'session_id', 'event_id'], height=700, use_container_width=True)
+    st.scatter_chart(data=chart_data, y=['activity_id'], height=700, use_container_width=True)
     
     import altair as alt
     import streamlit as st
