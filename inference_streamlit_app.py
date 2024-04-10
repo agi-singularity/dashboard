@@ -151,7 +151,7 @@ def calculate_population_difference(input_df, input_year):
 #######################
 # Dashboard Main Panel
 
-tab1, tab2, tab3 = st.tabs(["Overall", "Wand Activities", "Wand Action"])
+tab1, tab2, tab3, tab4 = st.tabs(["Overall", "Wand Activities", "Wand Action", "Others"])
 with tab1:
 
     col = st.columns((2, 6), gap='medium')
@@ -233,12 +233,12 @@ with tab3:
     chart_data = wdf
     st.bar_chart(data=chart_data, x='activity_id', y='action_data', height=5000, use_container_width=False)
     
-    
+with tab4:  
     #######################
     source = wdf
     
     scale = alt.Scale(
-        domain=["activity_id", "action", "event_id", "session_id", "headphone_state"],
+        domain=["activity_id", "action_data", "event_id", "session_id", "headphone_state"],
         range=["#e7ba52", "#a7a7a7", "#aec7e8", "#1f77b4", "#9467bd"],
     )
     color = alt.Color("activity_id:N", scale=scale)
@@ -254,7 +254,7 @@ with tab3:
         alt.Chart()
         .mark_point()
         .encode(
-            alt.X("action_data:T", title="timestamp"),
+            alt.X("action_data:T", title="action_)data"),
             alt.Y(
                 "activity_id:Q",
                 title="Activity ID",
