@@ -154,7 +154,7 @@ def calculate_population_difference(input_df, input_year):
 tab1, tab2, tab3, tab4 = st.tabs(["Overall", "Wand Activities", "Wand Action", "Others"])
 with tab1:
 
-    col = st.columns((2, 6), gap='medium')
+    col = st.columns((1.2, 6), gap='medium')
     with col[0]:
         st.markdown('#### Activity Count')
     
