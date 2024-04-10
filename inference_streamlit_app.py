@@ -224,16 +224,16 @@ with col[2]:
     import streamlit as st
     from vega_datasets import data
     
-    @st.cache_data
-    def get_data():
-        source = data.stocks()
-        source = source[source.date.gt("2004-01-01")]
-        return source
+    # @st.cache_data
+    # def get_data():
+    #     source = data.stocks()
+    #     source = source[source.date.gt("2004-01-01")]
+    #     return source
     
-    source = get_data()
+    # source = get_data()
     
-    # Original time series chart. Omitted `get_chart` for clarity
-    chart = get_chart(source)
+    # # Original time series chart. Omitted `get_chart` for clarity
+    # chart = get_chart(source)
     
     # Input annotations
     ANNOTATIONS = [
@@ -244,16 +244,16 @@ with col[2]:
     ]
     
     # Create a chart with annotations
-    annotations_df = pd.DataFrame(ANNOTATIONS, columns=["date", "event"])
+    annotations_df = df1s #pd.DataFrame(ANNOTATIONS, columns=["action_data", "activity_id"])
     annotations_df.date = pd.to_datetime(annotations_df.date)
     annotations_df["y"] = 0
     annotation_layer = (
         alt.Chart(annotations_df)
-        .mark_text(size=15, text="⬇", dx=0, dy=-10, align="center")
+        .mark_text(size=5, text="⬇", dx=0, dy=-10, align="center")
         .encode(
             x="date:T",
             y=alt.Y("y:Q"),
-            tooltip=["event"],
+            tooltip=["action_data"],
         )
         .interactive()
     )
