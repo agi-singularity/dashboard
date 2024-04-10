@@ -193,10 +193,10 @@ with col[1]:
     st.markdown('#### Unique Wand vs Events')
     
     # df1s = df_selected_activity_sorted
-    # activity_id = df1s['activity_id']
-    # action = df1s['action']
-    # action_data = df1s['action_data']
-    # session = df1s['session_id']
+    activity_id = df1s['activity_id']
+    action = df1s['action']
+    action_data = df1s['action_data']
+    session = df1s['session_id']
     # fig, ax = plt.subplots()
     # #plt.figure(figsize=(15,10))
     # #plt.get_autoscale_on()
@@ -210,7 +210,7 @@ with col[1]:
     #heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
     #st.altair_chart(heatmap, use_container_width=True)
 
-    chart_data = activity_id, action_data
+    chart_data = activity_id, action_data, session
     
     st.bar_chart(chart_data)
     
