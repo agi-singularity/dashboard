@@ -228,8 +228,10 @@ with tab2:
 
 with tab3:
     st.markdown('#### Individual Wand Journey Action Data')
-    chart_data = df_selected_wand.groupby(by='action_data').nunique()
-    st.bar_chart(data=chart_data, y=['activity_id'], height=700, use_container_width=False)
+    wdf = df_selected_wand.groupby(by='action_data').nunique()
+    wdf['action_data'] = wdf.index
+    chart_data = wdf
+    st.bar_chart(data=chart_data, x='activity_id', y='action_data' height=700, use_container_width=False)
     
     
     #######################
