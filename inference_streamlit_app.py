@@ -4,6 +4,8 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly.express as px
+import numpy as np
+import matplotlib.pyplot as plt
 
 #######################
 # Page configuration
@@ -189,6 +191,18 @@ with col[0]:
 
 with col[1]:
     st.markdown('#### Unique Wand vs Events')
+    
+    df1s = df_selected_activity_sorted
+    activity_id = df1s['activity_id']
+    action = df1s['action']
+    action_data = df1s['action_data']
+    session = df1s['session_id']
+    plt.figure(figsize=(15,10))
+    #plt.get_autoscale_on()
+    plt.plot(activity_id, action, label='action')
+    #plt.plot(activity_id, action_data, label='action_data')
+    plt.bar(activity_id, action_data)
+    plt.tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
     
     heatmap = make_heatmap(df_reshaped, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
     st.altair_chart(heatmap, use_container_width=True)
