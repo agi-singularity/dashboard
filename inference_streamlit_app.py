@@ -303,14 +303,14 @@ with col[2]:
         alt.Chart()
         .mark_point()
         .encode(
-            alt.X("id", title="action"),
+            alt.X("id:T", title="action"),
             alt.Y(
-                "activity_id",
+                "activity_id:Q",
                 title="Activity ID",
                 scale=alt.Scale(domain=[-5, 40]),
             ),
             color=alt.condition(brush, color, alt.value("lightgray")),
-            size=alt.Size("activity_id", scale=alt.Scale(range=[5, 200])),
+            size=alt.Size("activity_id:Q", scale=alt.Scale(range=[5, 200])),
         )
         .properties(width=550, height=300)
         .add_selection(brush)
