@@ -235,7 +235,7 @@ with tab3:
     
     
     #######################
-    source = df_selected_wand
+    source = wdf
     
     scale = alt.Scale(
         domain=["activity_id", "action", "event_id", "session_id", "headphone_state"],
@@ -254,7 +254,7 @@ with tab3:
         alt.Chart()
         .mark_point()
         .encode(
-            alt.X("timestamp:T", title="timestamp"),
+            alt.X("action_data:T", title="timestamp"),
             alt.Y(
                 "activity_id:Q",
                 title="Activity ID",
