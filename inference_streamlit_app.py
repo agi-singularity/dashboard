@@ -194,6 +194,7 @@ with col[1]:
     
     df1s = df_selected_activity_sorted.groupby(by='action_data').nunique()
     activity_id = df1s['activity_id']
+    wand = df1s['wand']
     action = df1s['action']
     action_data = df1s.index #df1s['action_data']
     session = df1s['session_id']
@@ -210,7 +211,7 @@ with col[1]:
     #heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
     #st.altair_chart(heatmap, use_container_width=True)
 
-    chart_data = activity_id, action_data
+    chart_data = action_data, wand
     
     #st.bar_chart(chart_data)
     st.scatter_chart(chart_data)
