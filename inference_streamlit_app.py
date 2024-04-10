@@ -251,7 +251,15 @@ with tab4:
             </svg>
         """
 
-        svg = 'data/opg1_red_rgb_alz_p2425.svg'
+        svg_file = 'data/opg1_red_rgb_alz_p2425.svg'
+
+        from xml.dom import minidom
+
+        doc = minidom.parse(svg_file)  # parseString also exists
+        path_strings = [path.getAttribute('d') for path
+                        in doc.getElementsByTagName('path')]
+        svg = doc.unlink()
+        
         st.write('## Rendering an SVG in Streamlit')
     
         st.write('### SVG Input')
