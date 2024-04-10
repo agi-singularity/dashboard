@@ -290,7 +290,7 @@ with col[2]:
         domain=["activity_id", "action", "event_id", "session_id", "headphone_state"],
         range=["#e7ba52", "#a7a7a7", "#aec7e8", "#1f77b4", "#9467bd"],
     )
-    color = alt.Color("action:N", scale=scale)
+    color = alt.Color("activity_id:N", scale=scale)
     
     # We create two selections:
     # - a brush that is active on the top panel
@@ -303,7 +303,7 @@ with col[2]:
         alt.Chart()
         .mark_point()
         .encode(
-            alt.X("id:T", title="action"),
+            alt.X("timestamp:T", title="timestamp"),
             alt.Y(
                 "activity_id:Q",
                 title="Activity ID",
