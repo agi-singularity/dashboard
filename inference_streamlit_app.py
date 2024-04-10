@@ -194,7 +194,7 @@ with col[1]:
     
     df1s = df_selected_activity_sorted.groupby(by='action_data').nunique()
     activity_id = df1s['activity_id']
-    wand = df1s['wand']
+    wand = df1s['wand_ideentifier']
     action = df1s['action']
     action_data = df1s.index #df1s['action_data']
     session = df1s['session_id']
