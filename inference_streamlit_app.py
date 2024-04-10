@@ -204,7 +204,7 @@ with col[1]:
     #plt.plot(activity_id, action_data, label='action_data')
     plt.bar(activity_id, action_data)
     plt.tick_params(axis='x', labelcolor='tab:blue', labelrotation=90, labelsize=6)
-    fig, ax = plt.subplots()]
+    fig, ax = plt.subplots()
     st.pyplot(fig)
     
     #heatmap = make_heatmap(df, 'activity_id', 'Wand Count', 'Event Count', selected_color_theme)
