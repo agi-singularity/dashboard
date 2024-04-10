@@ -214,7 +214,7 @@ with col[1]:
     chart_data = df1s #action_data, wand
     
     #st.bar_chart(chart_data)
-    st.scatter_chart(chart_data)
+    #st.scatter_chart(chart_data)
     st.scatter_chart(data=chart_data, width=30, height=30, use_container_width=True)
 
 # with col[2]:
