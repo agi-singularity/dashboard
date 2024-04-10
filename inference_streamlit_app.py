@@ -215,7 +215,7 @@ with col[1]:
     
     #st.bar_chart(chart_data)
     #st.scatter_chart(chart_data)
-    st.scatter_chart(data=chart_data, width=2000, height=2000, use_container_width=False)
+    st.scatter_chart(data=chart_data, width=1000, height=1000, use_container_width=True)
 
 with col[2]:
 
