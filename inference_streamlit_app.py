@@ -192,7 +192,7 @@ with col[0]:
 with col[1]:
     st.markdown('#### Unique Wand vs Events')
     
-    df1s = df_selected_activity_sorted
+    df1s = df_selected_activity_sorted.groupby(by='action_data').nunique()
     activity_id = df1s['activity_id']
     action = df1s['action']
     action_data = df1s['action_data']
