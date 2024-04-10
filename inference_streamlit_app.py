@@ -303,7 +303,7 @@ with col[2]:
         alt.Chart()
         .mark_point()
         .encode(
-            alt.X(index, title="action"),
+            alt.X("id", title="action"),
             alt.Y(
                 "activity_id",
                 title="Activity ID",
