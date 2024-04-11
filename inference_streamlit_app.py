@@ -252,6 +252,7 @@ with tab4:
     selected_svg = st.selectbox('Select SVG file', svg_list)
 
     import xml.etree.ElementTree as ET
+    from xml.etree import ElementTree, ElementInclude
     treex = ET.parse(selected_svg)
     rootx = treex.getroot()
     
