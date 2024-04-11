@@ -252,6 +252,7 @@ with tab4:
     selected_svg = st.selectbox('Select SVG file', svg_list)
 
     import xml.etree.ElementTree as ET
+    #xml.etree.ElementTree.tostring
     from xml.etree import ElementTree, ElementInclude
     treex = ET.parse(selected_svg)
     rootx = treex.getroot()
@@ -269,7 +270,8 @@ with tab4:
         print(grandchild.attrib)
         count += 1
 
-    treex.write('alz0405_blue_green.xml')
+    svg_str = treex.tostring
+    #treex.write('alz0405_blue_green.xml')
     
     def render_svg(svg):
         """Renders the given svg string."""
@@ -283,7 +285,7 @@ with tab4:
         
         #x = ElementInclude.include(rootx)
         #dom = xml.dom.minidom.parse(svg_file) # or 
-        dom = xml.dom.minidom.parseString(rootx)
+        dom = xml.dom.minidom.parseString(svg_str)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
         # st.write('### SVG Input')
