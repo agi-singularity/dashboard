@@ -237,6 +237,14 @@ with tab4:
     import streamlit as st
     import base64
     import textwrap
+    import glob
+
+    svgs = glob.glob('*.svg')
+    with st.echo():
+        for svg in svgs:
+            st.write(svg)
+    
+    #st.markdown('#### Individual Wand Journey Action Data')
     
     def render_svg(svg):
         """Renders the given svg string."""
