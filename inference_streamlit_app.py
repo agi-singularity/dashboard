@@ -243,6 +243,9 @@ with tab4:
     import textwrap
     import glob
 
+    svg_list = glob.glob('data/*.svg')
+    selected_svg = st.selectbox('Select SVG file', svg_list)
+    
     st.write(selected_svg)
     
     #st.markdown('#### Individual Wand Journey Action Data')
