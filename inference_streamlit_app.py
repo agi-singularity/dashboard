@@ -236,6 +236,7 @@ with tab3:
     #wdf['action_data'] = wdf.index
     chart_data = wdf
     st.bar_chart(data=chart_data, y='activity_id', width=5000, use_container_width=False)
+    st.write(wdf.index)
     
 with tab4:
     import streamlit as st
