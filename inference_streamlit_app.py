@@ -47,8 +47,8 @@ with st.sidebar:
     #df_selected_wand = df_selected_action[df_selected_action.wand_identifier == selected_wand]
     df_selected_wand = df[df.wand_identifier == selected_wand]
 
-    svg_list = glob.glob('data/*.svg')
-    selected_svg = st.selectbox('Select SVG file', svg_list)
+    # svg_list = glob.glob('data/*.svg')
+    # selected_svg = st.selectbox('Select SVG file', svg_list)
     
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
     selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
