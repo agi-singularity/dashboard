@@ -252,7 +252,6 @@ with tab4:
     selected_svg = st.selectbox('Select SVG file', svg_list)
 
     import xml.etree.ElementTree as ET
-    #xml.etree.ElementTree.tostring
     from xml.etree import ElementTree, ElementInclude
     treex = ET.parse(selected_svg)
     rootx = treex.getroot()
@@ -287,7 +286,7 @@ with tab4:
         
         #x = ElementInclude.include(rootx)
         dom = xml.dom.minidom.parse(output) # or 
-        dom = xml.dom.minidom.parseString(output)
+        #dom = xml.dom.minidom.parseString(output)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
         # st.write('### SVG Input')
