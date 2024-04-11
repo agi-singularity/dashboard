@@ -1,0 +1,63 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="layer_1" data-name="layer 1" width="12in" height="9in" viewBox="0 0 864 648">
+   <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p0405" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p0405.jpg" style="isolation: isolate;" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p0405_txt_w01_aliens" x="35.25" y="44.04" width="93.18" height="35.96" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w02_are" x="128.43" y="44.04" width="48.96" height="35.96" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w03_guys" x="177.39" y="44.04" width="62.35" height="35.96" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w04_that" x="239.74" y="44.04" width="60.43" height="35.96" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w05_come" x="300.17" y="44.04" width="69.39" height="35.96" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w06_from" x="35.25" y="87.87" width="61.79" height="33.39" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w07_space" x="97.04" y="87.87" width="93.22" height="33.39" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w08_said" x="190.26" y="87.87" width="59.48" height="33.39" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w09_buzz" x="249.74" y="87.87" width="72.35" height="33.39" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w10_birdzz" x="199.51" y="151.57" width="170.05" height="44.43" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w11_no" x="465.55" y="35.09" width="59.14" height="33.04" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w12_silly" x="524.7" y="35.09" width="69.91" height="33.04" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w13_said" x="594.61" y="35.09" width="59.48" height="33.04" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w14_buzz" x="654.09" y="35.09" width="74.08" height="33.04" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w15_they" x="728.17" y="35.09" width="80.87" height="33.04" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w16_look" x="465.55" y="76.32" width="59.14" height="31.99" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w17_like" x="524.7" y="76.32" width="52.17" height="31.99" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w18_this" x="576.87" y="76.32" width="61.04" height="31.99" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w19_i" x="637.91" y="76.32" width="17.21" height="31.99" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w20_drew" x="654.09" y="76.32" width="69.91" height="31.99" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w21_them" x="724" y="76.32" width="73.57" height="31.99" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w22_cut" x="463.13" y="117.17" width="48.52" height="32.87" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w23_them" x="511.65" y="117.17" width="68.35" height="32.87" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w24_out" x="580" y="117.17" width="53.74" height="32.87" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w25_and" x="633.74" y="117.17" width="51.65" height="32.87" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w26_glued" x="685.39" y="117.17" width="73.04" height="32.87" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w27_them" x="758.43" y="117.17" width="71.74" height="32.87" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w28_on" x="463.13" y="158.39" width="38.09" height="30.78" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w29_sticks" x="501.22" y="158.39" width="85.04" height="30.78" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w30_like" x="586.26" y="158.39" width="51.65" height="30.78" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_txt_w31_puppets" x="637.91" y="158.39" width="104.35" height="30.78" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:polygon id="alz_p0405_obj_fly_guy1" points="303.64 216.69 276.17 246.16 276.17 288.6 318.39 311 366.62 277.99 376 228.47 339.83 209.61 303.64 216.69" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:polygon id="alz_p0405_obj_fly_guy2" points="817.86 356.65 754.17 380.57 746.96 420.42 779.34 470.39 822.24 448.07 850.26 388.54 817.86 356.65" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_obj_page04" x="177.6" y="576.75" width="84.79" height="58" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:rect id="alz_p0405_obj_page05" x="605.91" y="576.13" width="81.48" height="59.23" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:polygon id="alz_p0405_obj_alien1" points="483 327.4 507.54 276.77 562.22 290.04 592.36 353.94 567.81 404.57 513.13 391.3 483 327.4" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:polygon id="alz_p0405_obj_alien2" points="594.61 280.28 634.62 240.71 681.75 271.43 688.89 341.72 648.88 381.29 601.74 350.57 594.61 280.28" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:polygon id="alz_p0405_obj_alien3" points="718.7 241.51 770.88 220.44 802.51 266.97 781.98 334.57 729.8 355.64 698.17 309.11 718.7 241.51" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:path id="alz_p0405_obj_hand" d="m684.52,448.83h-50.78l-36.87,24.35v41.74s22.26,26.41,22.96,29.21,57.04,8.36,57.04,8.36l59.83-18.78,6.26-37.22-29.22-38.6-29.22-9.04Z" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+    <ns0:path id="alz_p0405_obj_buzz" d="m123.13,291.96c-3.13,1.04-33.39,55.3-33.39,55.3l27.13,87.65,56.35,56.35h78.22l13.61-76.17-33.39-105.39-65.01-38.61-43.51,20.87Z" style="fill: #f0f; isolation: isolate; opacity: .5; stroke-width: 0px;" />
+  </ns0:g>
+</ns0:svg>

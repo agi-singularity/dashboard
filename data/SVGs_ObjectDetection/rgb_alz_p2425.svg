@@ -1,0 +1,54 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="12in" height="9in" viewBox="0 0 864 648">
+  <ns0:defs>
+    <ns0:style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </ns0:style>
+  </ns0:defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p2425" class="cls-1" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p2425.jpg" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p2425_txt_w01_when" class="color" x="31.3" y="43.27" width="88.35" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w02_no" class="color" x="118.3" y="43.27" width="40.3" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w03_one" class="color" x="158.61" y="43.27" width="48.96" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w04_was" class="color" x="207.57" y="43.27" width="51.91" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w05_looking" class="color" x="259.48" y="43.27" width="93.91" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w06_space" class="color" x="30.71" y="82.18" width="72.25" height="38.91" style="fill: rgb(12.125732532083186,5.278031643091577,8.0)" />
+    <ns0:rect id="alz_p2425_txt_w07_pirates" class="color" x="102.96" y="82.18" width="86.96" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w08_came" class="color" x="189.91" y="82.18" width="66.8" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w09_and" class="color" x="256.71" y="82.18" width="49.37" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w10_stole" class="color" x="306.09" y="82.18" width="68.87" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w11_the" class="color" x="30.71" y="121.09" width="47.9" height="38.91" style="fill: rgb(12.125732532083186,5.278031643091577,8.0)" />
+    <ns0:rect id="alz_p2425_txt_w12_solidgold" class="color" x="75.48" y="121.09" width="121.95" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w13_spaceship" class="color" x="197.43" y="121.09" width="118.57" height="38.91" style="fill: rgb(12.125732532083186,5.278031643091577,8.0)" />
+    <ns0:rect id="alz_p2425_txt_w14_arrgh" class="color" x="39.43" y="176.64" width="100.57" height="44.36" style="fill: rgb(42.22425314473262,12.125732532083184,22.627416997969522)" />
+    <ns0:rect id="alz_p2425_txt_w15_they" class="color" x="466" y="33.18" width="75" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w16_took" class="color" x="541" y="33.18" width="61.91" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w17_it" class="color" x="602.91" y="33.18" width="24.48" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w18_back" class="color" x="623.43" y="33.18" width="60.57" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w19_to" class="color" x="684" y="33.18" width="33.17" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w20_their" class="color" x="715.43" y="33.18" width="66.57" height="38.91" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p2425_txt_w21_creepy" class="color" x="466" y="72.09" width="82" height="38.91" style="fill: rgb(7.224674055842076,3.7371928188465517,5.196152422706632)" />
+    <ns0:rect id="alz_p2425_txt_w22_pirate" class="color" x="548" y="72.09" width="75.43" height="38.91" style="fill: rgb(12.125732532083186,5.278031643091577,8.0)" />
+    <ns0:rect id="alz_p2425_txt_w23_planet" class="color" x="623.43" y="72.09" width="89.57" height="38.91" style="fill: rgb(33.20293475662357,10.330412131161864,18.520259177452136)" />
+    <ns0:rect id="alz_p2425_txt_w24_arrgh" class="color" x="715.43" y="196.09" width="84.57" height="38.91" style="fill: rgb(63.09573444801933,15.848931924611133,31.622776601683793)" />
+    <ns0:polygon id="alz_p2425_obj_pship1" class="color" points="330.43 215.55 228.87 198.82 132.87 251.96 109.22 336.13 158.61 395.96 278.26 352.83 336 272.83 345.04 229 330.43 215.55" style="fill: rgb(541.1592569361521,66.40743836382342,189.57056733575496)" />
+    <ns0:polygon id="alz_p2425_obj_spaceship1" class="color" points="151.65 478.04 83.48 457.87 46.61 478.04 46.61 515.61 89.71 541.35 151.65 546.91 178.09 507.96 151.65 478.04" style="fill: rgb(305.05646622205796,45.316200542155286,117.57550765359255)" />
+    <ns0:polygon id="alz_p2425_obj_saturn" class="color" points="233.52 471.78 207.57 485.7 214.26 515.61 251.13 518.39 267.13 485.7 233.52 471.78" style="fill: rgb(130.90742080935482,25.78157891381218,58.09475019311125)" />
+    <ns0:polygon id="alz_p2425_obj_spaceship2" class="color" points="503.5 153.17 475.13 215.55 503.5 238.74 541 215.55 544 171.96 524.52 146.91 503.5 153.17" style="fill: rgb(42.22425314473262,12.125732532083184,22.627416997969522)" />
+    <ns0:path id="alz_p2425_obj_pship2" class="color" d="m615.15,196.09c-1.58,3-29.43,9.26-29.43,9.26l-20.85,3.2-6.96,46.19s61.47,58.43,65.52,60.52,60.57-17.87,60.57-17.87l8.17-62.39-45.91-42.17-31.11,3.26Z" style="fill: rgb(455.84611570090647,59.23051457504459,164.31676725154983)" />
+    <ns0:polygon id="alz_p2425_obj_pirate_planet" class="color" points="731.83 384.13 676.17 395.96 635.83 446.74 636.52 495.43 653.71 539.96 695.65 563.61 757.71 558.74 800 526.74 809.04 477.35 800 432.13 764.52 400.13 731.83 384.13" style="fill: rgb(1062.2683140269505,104.10929003497905,332.55375505322445)" />
+    <ns0:rect id="alz_p2425_obj_page25" class="color" x="631.65" y="592.83" width="31.3" height="25.74" />
+  </ns0:g>
+</ns0:svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="layer_1" data-name="layer 1" xmlns="http://www.w3.org/2000/svg" width="864" height="648" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 864 648">
+  <g id="art">
+    <image id="alz_p0000" data-name="alz p0000" width="1800" height="1350" transform="scale(.48)" xlink:href="../JPGs/alz_p0000.jpg" style="isolation: isolate;"/>
+  </g>
+  <g id="labels">
+    <polygon id="alz_p0000_obj_alien1" data-name="alz p0000 obj alien1" points="570.81 340.16 537.79 333.18 506.32 336.09 469.96 344.48 472.44 429.62 497.68 513.65 590.84 505.02 594.39 423.34 584.82 367.99 570.81 340.16" style="opacity: .5; stroke-width: 0px;"/>
+    <polygon id="alz_p0000_obj_alien2" data-name="alz p0000 obj alien2" points="699.53 334 664.91 324 630.98 324 591.27 329 585.5 414 604.17 500 704.62 500 716.5 419 711.75 363 699.53 334" style="opacity: .5; stroke-width: 0px;"/>
+    <polygon id="alz_p0000_obj_alien3" data-name="alz p0000 obj alien3" points="808.07 353.19 781.51 342.05 754.79 339.98 723.18 342.09 712.71 418.59 721.4 497.48 800.49 503.59 815.49 431.08 815.66 380.16 808.07 353.19" style="opacity: .5; stroke-width: 0px;"/>
+    <path id="alz_p0000_obj_fly_guy" data-name="alz p0000 obj fly guy" d="m816,333v-48l-51-32-36,13-5,45,15.9,26.99,76.1,8.01v-13Z" style="opacity: .5; stroke-width: 0px;"/>
+    <polygon id="alz_p0000_obj_rocket" data-name="alz p0000 obj rocket" points="754 115 769 148.84 832 122 832 91 800 91 754 115" style="opacity: .5; stroke-width: 0px;"/>
+    <polygon id="alz_p0000_txt_scholastic" data-name="alz p0000 txt scholastic" points="724 617 572 617 572 602.6 601 582 698 582 730 602.6 724 617" style="opacity: .5; stroke-width: 0px;"/>
+    <rect id="alz_p0000_txt_w07_arnold" data-name="alz p0000 txt w07 arnold" x="640.5" y="535" width="105.5" height="38" style="stroke-width: 0px;"/>
+    <rect id="alz_p0000_txt_w06_tedd" data-name="alz p0000 txt w06 tedd" x="544" y="535" width="87.5" height="38" style="stroke-width: 0px;"/>
+    <polygon id="alz_p0000_txt_w05_alienzz" data-name="alz p0000 txt w05 alienzz" points="503 194 510 258 778 216 773 160 503 194" style="stroke-width: 0px;"/>
+    <polygon id="alz_p0000_txt_w04_the" data-name="alz p0000 txt w04 the" points="631.5 128 651 172.99 754 160 746 116 631.5 128" style="stroke-width: 0px;"/>
+    <polygon id="alz_p0000_txt_w03_and" data-name="alz p0000 txt w03 and" points="516 133 510 188 640.5 174.11 627 128 516 133" style="stroke-width: 0px;"/>
+    <polygon id="alz_p0000_txt_w02_guy" data-name="alz p0000 txt w02 guy" points="627 38 631.5 121.69 767 108 793 41 627 38" style="stroke-width: 0px;"/>
+    <polygon id="alz_p0000_txt_w01_fly" data-name="alz p0000 txt w01 fly" points="469.96 57 480 133 623 119.92 617 38 469.96 57" style="stroke-width: 0px;"/>
+  </g>
+</svg>

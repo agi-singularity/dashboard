@@ -1,0 +1,47 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="12in" height="9in" viewBox="0 0 864 648">
+  <ns0:defs>
+    <ns0:style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </ns0:style>
+  </ns0:defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p1011" class="cls-1" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p1011.jpg" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p1011_txt_w01_they" class="cls-2" x="43" y="32.18" width="70.87" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w02_were" class="cls-2" x="113" y="32.18" width="73" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w03_guarding" class="cls-2" x="186" y="32.18" width="114.43" height="38.91" style="fill: rgb(148.1620734196171,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w04_the" class="cls-2" x="300.43" y="32.18" width="54.57" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w05_secret" class="cls-2" x="28" y="71.09" width="93" height="38.91" style="fill: rgb(22.627416997969522,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w06_hero" class="cls-2" x="121" y="71.09" width="71.43" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w07_fort" class="cls-2" x="192.43" y="71.09" width="69.57" height="38.91" style="fill: rgb(52.38320341483518,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w08_an" class="cls-2" x="463.04" y="32.18" width="48.96" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w09_alien" class="cls-2" x="512" y="32.18" width="71" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w10_spaceship" class="cls-2" x="583" y="32.18" width="123" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w11_snuck" class="cls-2" x="706" y="32.18" width="78" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w12_up" class="cls-2" x="784" y="32.18" width="39" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w13_behind" class="cls-2" x="460" y="71.09" width="90" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w14_fly" class="cls-2" x="550" y="71.09" width="43" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w15_guy" class="cls-2" x="593" y="71.09" width="58.04" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w16_and" class="cls-2" x="651.04" y="71.09" width="48.96" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w17_buzz" class="cls-2" x="700" y="71.09" width="65.43" height="38.91" style="fill: rgb(2.8284271247461903,0,0)" />
+    <ns0:rect id="alz_p1011_txt_w18_boy" class="cls-2" x="765.43" y="71.09" width="62.57" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:path id="alz_p1011_obj_fly_guy1" class="cls-2" d="m149.5,195l-63.5,49-24,67,16,55,114.43-9s44.57-66,41.57-69,.14-74,.14-74l-69.14-34-15.5,15Z" style="fill: rgb(216.0,0,0)" />
+    <ns0:polygon id="alz_p1011_obj_buzz1" class="cls-2" points="254 249 239 307 262 384 347 427 395 366 389 273 327.71 233 254 249" style="fill: rgb(27.0,0,0)" />
+    <ns0:polygon id="alz_p1011_obj_buzz2" class="cls-2" points="562 341 493 330 460 366 455 427 481 475 562 507 622.02 480 618 400 593 360 562 341" style="fill: rgb(243.55492193753753,0,0)" />
+    <ns0:polygon id="alz_p1011_obj_fly_guy2" class="cls-2" points="700 418.5 644.5 483 635 536 700 558 765.43 553 807 507 790 450 745 427 700 418.5" style="fill: rgb(2.8284271247461903,0,0)" />
+    <ns0:polygon id="alz_p1011_obj_sign" class="cls-2" points="98 548 98 607 300.43 591 285 514 98 548" style="fill: rgb(207.06279240848656,0,0)" />
+    <ns0:polygon id="alz_p1011_obj_spaceship" class="cls-2" points="765.43 122 721 131 682 175 669 241 675.52 282 732.71 300 840 211 845 166 811 122 765.43 122" style="fill: rgb(234.2477321128211,0,0)" />
+  </ns0:g>
+</ns0:svg>

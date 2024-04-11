@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12in" height="9in" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 864 648">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g id="art">
+    <image id="alz_p2223" class="cls-1" width="1800" height="1350" transform="scale(.48)" xlink:href="../JPGs/alz_p2223.jpg"/>
+  </g>
+  <g id="labels">
+    <rect id="alz_p2223_txt_w01_fly" class="cls-2" x="37.43" y="32.09" width="51.61" height="38.91"/>
+    <rect id="alz_p2223_txt_w02_guy" class="cls-2" x="89.04" y="32.09" width="58.48" height="38.91"/>
+    <rect id="alz_p2223_txt_w03_and" class="cls-2" x="147.52" y="32.09" width="54.35" height="38.91"/>
+    <rect id="alz_p2223_txt_w04_fly" class="cls-2" x="201" y="32.09" width="45" height="38.91"/>
+    <rect id="alz_p2223_txt_w05_girl" class="cls-2" x="246" y="32.09" width="55.96" height="38.91"/>
+    <rect id="alz_p2223_txt_w06_flew" class="cls-2" x="303.43" y="32.09" width="62.96" height="38.91"/>
+    <rect id="alz_p2223_txt_w07_around" class="cls-2" x="30" y="71" width="93.04" height="38.91"/>
+    <rect id="alz_p2223_txt_w08_the" class="cls-2" x="123.04" y="71" width="48.96" height="38.91"/>
+    <rect id="alz_p2223_txt_w09_aliens" class="cls-2" x="172" y="71" width="81" height="38.91"/>
+    <rect id="alz_p2223_txt_w10_very" class="cls-2" x="253" y="71" width="64.43" height="38.91"/>
+    <rect id="alz_p2223_txt_w11_fast" class="cls-2" x="317.43" y="71" width="48.96" height="38.91"/>
+    <rect id="alz_p2223_txt_w12_the" class="cls-2" x="457" y="32.09" width="73.81" height="38.91"/>
+    <rect id="alz_p2223_txt_w13_aliens" class="cls-2" x="530.81" y="32.09" width="85.39" height="38.91"/>
+    <rect id="alz_p2223_txt_w14_shot" class="cls-2" x="614" y="32.09" width="59" height="38.91"/>
+    <rect id="alz_p2223_txt_w15_at" class="cls-2" x="673" y="32.09" width="33.39" height="38.91"/>
+    <rect id="alz_p2223_txt_w16_them" class="cls-2" x="705" y="32.09" width="68.5" height="38.91"/>
+    <rect id="alz_p2223_txt_w17_with" class="cls-2" x="462" y="71" width="68.81" height="38.91"/>
+    <rect id="alz_p2223_txt_w18_flyswatter" class="cls-2" x="530" y="71" width="131.43" height="38.91"/>
+    <rect id="alz_p2223_txt_w19_shooters" class="cls-2" x="661.43" y="71" width="112.07" height="38.91"/>
+    <rect id="alz_p2223_txt_w20_they" class="cls-2" x="462" y="324" width="88.65" height="38.91"/>
+    <rect id="alz_p2223_txt_w21_missed" class="cls-2" x="549" y="324" width="91.67" height="38.91"/>
+    <rect id="alz_p2223_txt_w22_and" class="cls-2" x="639" y="324" width="54" height="38.91"/>
+    <rect id="alz_p2223_txt_w23_hit" class="cls-2" x="693" y="324" width="47" height="38.91"/>
+    <rect id="alz_p2223_txt_w24_each" class="cls-2" x="740" y="324" width="67" height="38.91"/>
+    <rect id="alz_p2223_txt_w25_other" class="cls-2" x="462" y="363.09" width="79.39" height="38.91"/>
+    <rect id="alz_p2223_txt_w26_instead" class="cls-2" x="540.43" y="363.09" width="102.57" height="38.91"/>
+    <polygon id="alz_p2223_obj_fly_guy1" class="cls-2" points="168.35 128.13 110.61 154.57 94.61 178.22 102.96 209.52 174.69 224.83 202.36 210.09 219.13 176.13 209.39 133 168.35 128.13"/>
+    <path id="alz_p2223_obj_fly_girl1" class="cls-2" d="m342.57,123.96c-4.53,1.71-73.03,17.05-73.03,17.05l-16.55,42.2,44.79,25.15,53.18,2.56,24.6-42.63-32.99-44.33Z"/>
+    <polygon id="alz_p2223_obj_alien1a" class="cls-2" points="76.52 303.09 94.61 313.87 127.3 369.52 187.83 352.83 174.69 308.3 193.39 287.43 165.57 236.65 94.61 242.22 76.52 303.09"/>
+    <polygon id="alz_p2223_obj_alien2a" class="cls-2" points="201 240.83 193.39 281.17 187.13 313.17 197.2 366.74 253 360.48 285.21 312.48 285.21 256.83 219.13 236.65 201 240.83"/>
+    <path id="alz_p2223_obj_alien3a" class="cls-2" d="m297.04,303.09c0,6.61-25.04,57.39-25.04,57.39v53.57l59.13,15.3,24.35-46.8,6.96-62.41-65.39-17.04Z"/>
+    <path id="alz_p2223_obj_dragon_head" class="cls-2" d="m252.52,369.52c-2.09,0-76.52-3.3-76.52-3.3l-118.96,16.33,19.48,99.67,166.96,43.83,47.3-28.52,71.65-29.22-20.17-35.48-82.09-19.48,3.48-30.8-11.13-13.02Z"/>
+    <path id="alz_p2223_obj_dragon_body" class="cls-2" d="m112,499.61c-.7,4.17-24.35,47.3-24.35,47.3l-26.43,88.35h237.22l34.78-45.22-97.04-64-124.17-26.43Z"/>
+    <path id="alz_p2223_obj_dragon_puffs" class="cls-2" d="m336.12,479.03c-3.23,1.32-50.91,29.62-50.91,29.62l4.87,43.13,61.22,22.26,70.26-22.26v-90.43l-85.44,17.69Z"/>
+    <polygon id="alz_p2223_obj_alien1b" class="cls-2" points="541.39 201.87 530.81 219.96 510.61 205.35 493.9 245.7 541.39 309.7 599.65 309.7 614 233.87 541.39 201.87"/>
+    <path id="alz_p2223_obj_alien2b" class="cls-2" d="m550.65,134.39c.3,6.26,3.3,73.01,3.3,73.01l62.24,17.42,49.81-17.39,19.22-30.96-55.65-8-11.63-29.22-67.28-4.87Z"/>
+    <path id="alz_p2223_obj_alien3b" class="cls-2" d="m680.35,199.09c-.7,2.09-18.92,20.87-18.92,20.87l-30.47,4.87,24.7,61.22,5.78,23.65,60.79-11.13-5.71-34.09,40.37-34.09-5.57-31.3h-70.96Z"/>
+    <path id="alz_p2223_obj_swatter1b" class="cls-2" d="m521.04,145.52c-1.39,2.78,0,50.09,0,50.09l-38.26,16-9.04-70.96,23.65-17.39,23.65,22.26Z"/>
+    <polygon id="alz_p2223_obj_swatter2b" class="cls-2" points="766.61 123.26 746.43 190.04 766.61 204.65 814.61 199.09 814.61 171.96 795.83 163.61 795.83 109.91 773.5 101.7 766.61 123.26"/>
+    <path id="alz_p2223_obj_alien1c" class="cls-2" d="m482.78,451.61c.7,4.87-9.04,105.04-9.04,105.04l22.66,37.57s88.77-9.74,95.31-9.04,33.68,9.04,33.68,9.04l23.65-20.17-57.33-63.3-33.11-59.13h-75.83Z"/>
+    <path id="alz_p2223_obj_alien2c" class="cls-2" d="m643,421.7c-1.61,2.09-71.3,48.7-69.5,51.48s40.5,52.87,40.5,52.87l54.52-26.43h36.48l21.26-43.83-28.52-53.78-54.74,19.7Z"/>
+    <polygon id="alz_p2223_obj_alien3c" class="cls-2" points="689.69 502.39 643.5 508.65 625.86 548.44 666 604.65 740 597.7 763.83 526.04 716.5 491.96 689.69 502.39"/>
+    <rect id="alz_p2223_obj_page23" class="cls-2" x="630.96" y="592.13" width="29.91" height="25.74"/>
+    <polygon id="alz_p2223_obj_swatter1c" class="cls-2" points="607.3 408.48 540.43 411.96 530 446.13 562.94 459.34 607.3 438.39 614 418.22 607.3 408.48"/>
+    <polygon id="alz_p2223_obj_swatter2c" class="cls-2" points="726.26 418.91 713.04 446.13 735.3 478.04 735.3 499.61 756.87 499.61 766.61 446.13 746.43 418.91 726.26 418.91"/>
+  </g>
+</svg>

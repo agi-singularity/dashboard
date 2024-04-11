@@ -1,0 +1,52 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="12in" height="9in" viewBox="0 0 864 648">
+  <ns0:defs>
+    <ns0:style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </ns0:style>
+  </ns0:defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p2021" class="cls-1" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p2021.jpg" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p2021_txt_w01_scene" class="color" x="110" y="19.64" width="166" height="48.64" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w02_3" class="color" x="276" y="19.64" width="48.96" height="48.64" style="fill: rgb(27.0,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w03_suddenly" class="color" x="41" y="78" width="128.04" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w04_fly" class="color" x="169.04" y="78" width="48.96" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w05_girl" class="color" x="218" y="78" width="58" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w06_arrived" class="color" x="276" y="78" width="113.39" height="38.91" style="fill: rgb(31.622776601683793,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w07_the" class="color" x="463" y="29.36" width="64.98" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w08_aliens" class="color" x="527" y="29.36" width="78" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w09_were" class="color" x="605" y="29.36" width="61.69" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w10_busy" class="color" x="665" y="29.36" width="61.95" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w11_with" class="color" x="726.95" y="29.36" width="61.96" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w12_dragon" class="color" x="463" y="68.27" width="89.46" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w13_dude" class="color" x="552.48" y="68.27" width="73.69" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w14_they" class="color" x="627" y="68.27" width="66" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w15_didnt" class="color" x="693" y="68.27" width="71.43" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w16_see" class="color" x="764.43" y="68.27" width="48.96" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w17_her" class="color" x="463" y="107.18" width="48.96" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w18_rescue" class="color" x="512" y="107.18" width="80.96" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w19_fly" class="color" x="593" y="107.18" width="41.91" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w20_guy" class="color" x="634" y="107.18" width="59" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w21_from" class="color" x="693" y="107.18" width="58.43" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w22_the" class="color" x="751.43" y="107.18" width="48.96" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w23_secret" class="color" x="463" y="146.09" width="81" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w24_hero" class="color" x="544" y="146.09" width="66.43" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p2021_txt_w25_fort" class="color" x="610.43" y="146.09" width="63.57" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:polygon id="alz_p2021_obj_fly_girl1" class="color" points="198 230 134 265 83 324 60 361 95 444 157 479 287 439 356 380 342 277 247 230 198 230" style="fill: rgb(198.25236442474022,0,0)" />
+    <ns0:polygon id="alz_p2021_obj_fly_guy" class="color" points="593 354.5 507.73 398 512 508 577.21 554 674 530 660 435 627 367 593 354.5" />
+    <ns0:polygon id="alz_p2021_obj_fly_girl2" class="color" points="728.71 347 679 375 674 454.25 703.86 519 771 540 826 479 800.39 416 757.93 361 728.71 347" style="fill: rgb(291.8629815512752,0,0)" />
+    <ns0:rect id="alz_p2021_obj_page21" class="color" x="634" y="588" width="32.69" height="32.69" />
+  </ns0:g>
+</ns0:svg>

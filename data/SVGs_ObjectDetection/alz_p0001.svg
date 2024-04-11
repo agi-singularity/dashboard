@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12in" height="9in" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 864 648">
+  <g id="art">
+    <image id="alz_p0001" width="1800" height="1350" transform="scale(.48)" xlink:href="../JPGs/alz_p0001.jpg" style="fill: none; isolation: isolate;"/>
+  </g>
+  <g id="labels">
+    <polygon id="alz_p0001_obj_fly_guy1" points="215 55 167 74 135 103 129 130 146 182 190 206 251 206 300 180 313 130.5 292 78 238 55 215 55" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <polygon id="alz_p0001_obj_buzz" points="592 289 515 341 489 386 497 475 464 534 506 609 662 604.6 702 562 680 490 669 392 664 332 592 289" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <polygon id="alz_p0001_obj_fly_guy2" points="724.3 289 687.3 311.09 706.3 348 752.3 338 758.3 300 724.3 289" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <polygon id="alz_p0001_txt_dedication" points="357 246 357 226 77 226 77 246 52 246 52 278 375 278 375 246 357 246" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <polygon id="alz_p0001_txt_legal" points="52 328 52 360 67 416 121 437 173 442 167 479 262 479 262 444 302 441 313 418 368 418 375 403.5 368 376 382 368 365 324 268 318.5 257 313 160 313 147 324 52 328" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w01_a" x="464.7" y="32.83" width="28.52" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w02_boy" x="493.22" y="32.83" width="54.61" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w03_had" x="547.83" y="32.83" width="52.52" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w04_a" x="600.35" y="32.83" width="26.09" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w05_pet" x="626.43" y="32.83" width="46.61" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w06_fly" x="673.04" y="32.83" width="47.65" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w07_he" x="467.83" y="73.17" width="41.39" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w08_named" x="509.22" y="73.17" width="91.13" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w09_him" x="600.35" y="73.17" width="57.74" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w10_fly" x="658.09" y="73.17" width="47.3" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w11_guy" x="705.39" y="73.17" width="60.17" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w12_fly" x="464.7" y="113.87" width="48" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w13_guy" x="512.7" y="113.87" width="59.48" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w14_could" x="572.17" y="113.87" width="75.48" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w15_say" x="647.65" y="113.87" width="52.87" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w16_the" x="462.26" y="155.96" width="52.87" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w17_boys" x="515.13" y="155.96" width="73.04" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <rect id="alz_p0001_txt_w18_name" x="588.17" y="155.96" width="76.17" height="37.22" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <polygon id="alz_p0001_txt_w19_buzz" points="770.43 269.35 749.91 275.61 681.74 275.61 639.59 269.86 629.22 244.13 638.61 224.13 670.61 209.7 738.09 209.7 765.57 214.39 784.35 246.39 770.43 269.35" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+  </g>
+</svg>

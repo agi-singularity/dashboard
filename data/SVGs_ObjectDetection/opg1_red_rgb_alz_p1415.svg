@@ -1,0 +1,57 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="12in" height="9in" viewBox="0 0 864 648">
+  <ns0:defs>
+    <ns0:style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </ns0:style>
+  </ns0:defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p1415" class="cls-1" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p1415.jpg" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p1415_txt_w01_the" class="cls-2" x="172.52" y="32.13" width="59.48" height="35.18" style="fill: rgb(41.569219381653056,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w02_aliens" class="cls-2" x="232" y="32.13" width="75.67" height="35.18" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w03_were" class="cls-2" x="307.65" y="32.13" width="63.11" height="35.18" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w04_so" class="cls-2" x="370.52" y="32.13" width="36.79" height="35.18" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w05_busy" class="cls-2" x="192.87" y="71.78" width="65.85" height="30.78" style="fill: rgb(181.01933598375618,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w06_they" class="cls-2" x="258.71" y="71.78" width="60.37" height="30.78" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w07_didnt" class="cls-2" x="318.34" y="71.78" width="71.74" height="30.78" style="fill: rgb(22.627416997969522,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w08_see" class="cls-2" x="202.34" y="108.64" width="48.96" height="29.41" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w09_fly" class="cls-2" x="251.3" y="108.64" width="43.3" height="29.41" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w10_guy" class="cls-2" x="294.61" y="108.64" width="54.39" height="29.41" style="fill: rgb(41.569219381653056,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w11_escape" class="cls-2" x="212.43" y="147.55" width="92.57" height="28" style="fill: rgb(58.09475019311125,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w12_scene" class="cls-2" x="540" y="14.09" width="163.47" height="59.91" style="fill: rgb(156.16977940690063,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w13_2" class="cls-2" x="703.47" y="14.09" width="48.96" height="59.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w14_fly" class="cls-2" x="471.04" y="89.18" width="48.96" height="38.91" style="fill: rgb(22.627416997969522,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w15_guy" class="cls-2" x="520" y="89.18" width="57" height="38.91" style="fill: rgb(27.0,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w16_flew" class="cls-2" x="577" y="89.18" width="64.48" height="38.91" style="fill: rgb(22.627416997969522,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w17_back" class="cls-2" x="639" y="89.18" width="61" height="38.91" style="fill: rgb(22.627416997969522,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w18_to" class="cls-2" x="700" y="89.18" width="33.43" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w19_the" class="cls-2" x="733.43" y="89.18" width="48.96" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w20_secret" class="cls-2" x="463" y="128.09" width="86" height="38.91" style="fill: rgb(36.4828726939094,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w21_hero" class="cls-2" x="549" y="128.09" width="68" height="38.91" style="fill: rgb(36.4828726939094,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w22_fort" class="cls-2" x="617" y="128.09" width="55" height="38.91" style="fill: rgb(22.627416997969522,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w23_to" class="cls-2" x="672" y="128.09" width="31.47" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w24_get" class="cls-2" x="703.47" y="128.09" width="48.96" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1415_txt_w25_help" class="cls-2" x="752.43" y="128.09" width="68.57" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:path id="alz_p1415_obj_fly_guy" class="cls-2" d="m92.52,87.17c-6.96,2.7-56.35,40.92-56.35,40.92l13.91,63.34,51.48,42.43,64.7,16.7,24.35-60.52-21.57-90.43-49.39-15.3-27.13,2.87Z" style="fill: rgb(311.9871792237623,0,0)" />
+    <ns0:path id="alz_p1415_obj_alien1" class="cls-2" d="m64.7,372.3c-4.17,5.57-13.91,68.87-13.91,68.87l25.04,82.09,96.7-16v-88.35l-22.26-63.3h-54.26l-31.3,16.7Z" style="fill: rgb(181.01933598375618,0,0)" />
+    <ns0:path id="alz_p1415_obj_alien2" class="cls-2" d="m212.43,366.74c-3.73,2.09-29.47,32-29.47,32l7.65,119.65,79.23,4.87,19.06-86.96-3.68-49.39-38.26-20.17h-34.53Z" />
+    <ns0:path id="alz_p1415_obj_alien3" class="cls-2" d="m357.57,387.61s-63.3,15.3-62.96,18.09,0,98.78,0,98.78v33.39l65.74,4.87,38.26-77.57,8.7-53.22-49.74-24.35Z" />
+    <ns0:path id="alz_p1415_obj_buzz" class="cls-2" d="m342.26,638.74c-1.39-3.48-11.83-70.26-11.83-70.26l-75.83-38.96-122.43-6.26-84.87,24.35-11.13,100.39h286.61l19.48-9.26Z" style="fill: rgb(132.5745073534124,0,0)" />
+    <ns0:path id="alz_p1415_obj_spaceship" class="cls-2" d="m794.43,179.61c-2.09,0-77.72,25.74-77.72,25.74l-16.71,24.35,16.71,34.09,41.19-8.35,47.66-4.87,8.35-44.52-19.48-26.43Z" style="fill: rgb(70.09279563550022,0,0)" />
+    <ns0:polygon id="alz_p1415_obj_fort" class="cls-2" points="800.7 374.39 661.57 382.74 672 588.65 786.71 567.09 813.91 481.52 800.7 374.39" style="fill: rgb(353.5533905932738,0,0)" />
+    <ns0:rect id="alz_p1415_obj_sign" class="cls-2" x="475.83" y="408.48" width="181.57" height="91.83" />
+    <ns0:rect id="alz_p1415_obj_page15" class="cls-2" x="629.57" y="588.65" width="35.48" height="35.48" />
+  </ns0:g>
+</ns0:svg>

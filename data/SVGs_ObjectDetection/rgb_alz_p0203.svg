@@ -1,0 +1,57 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="layer_1" width="12in" height="9in" viewBox="0 0 864 648">
+  <ns0:defs>
+    <ns0:style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </ns0:style>
+  </ns0:defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p0203" class="cls-1" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p0203.jpg" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p0203_txt_w01_chapter" class="color" x="107.6" y="20.4" width="185.4" height="57.6" style="fill: rgb(12.125732532083186,5.278031643091577,8.0)" />
+    <ns0:rect id="alz_p0203_txt_w02_1" class="color" x="293" y="20.4" width="36" height="57.6" style="fill: rgb(3.4822022531844965,2.2973967099940698,2.8284271247461903)" />
+    <ns0:rect id="alz_p0203_txt_w03_one" class="color" x="32.17" y="82.22" width="59.48" height="37.04" style="fill: rgb(115.61933422185243,23.733054843014095,52.38320341483518)" />
+    <ns0:rect id="alz_p0203_txt_w04_day" class="color" x="91.65" y="82.22" width="55.3" height="37.04" style="fill: rgb(74.90431440274533,17.769336928223957,36.4828726939094)" />
+    <ns0:rect id="alz_p0203_txt_w05_buzz" class="color" x="146.43" y="82.22" width="69.39" height="37.04" style="fill: rgb(63.09573444801933,15.848931924611133,31.622776601683793)" />
+    <ns0:rect id="alz_p0203_txt_w06_said" class="color" x="215.83" y="82.22" width="69.39" height="37.04" style="fill: rgb(87.60446523262164,19.725021954206706,41.569219381653056)" />
+    <ns0:rect id="alz_p0203_txt_w07_hey" class="color" x="285.22" y="82.22" width="65.22" height="37.04" style="fill: rgb(74.90431440274533,17.769336928223957,36.4828726939094)" />
+    <ns0:rect id="alz_p0203_txt_w08_fly" class="color" x="32.17" y="119.26" width="45.91" height="40.7" style="fill: rgb(101.18078258651313,21.71360948035253,46.87216658103186)" />
+    <ns0:rect id="alz_p0203_txt_w09_guy" class="color" x="77.04" y="119.26" width="63.65" height="40.7" style="fill: rgb(74.90431440274533,17.769336928223957,36.4828726939094)" />
+    <ns0:rect id="alz_p0203_txt_w10_im" class="color" x="140.17" y="119.26" width="48" height="40.7" style="fill: rgb(74.90431440274533,17.769336928223957,36.4828726939094)" />
+    <ns0:rect id="alz_p0203_txt_w11_making" class="color" x="188.17" y="119.26" width="94.96" height="40.7" style="fill: rgb(101.18078258651313,21.71360948035253,46.87216658103186)" />
+    <ns0:rect id="alz_p0203_txt_w12_a" class="color" x="282.57" y="119.26" width="23" height="40.7" style="fill: rgb(63.09573444801933,15.848931924611133,31.622776601683793)" />
+    <ns0:rect id="alz_p0203_txt_w13_movie" class="color" x="304" y="119.26" width="91.83" height="40.7" style="fill: rgb(115.61933422185243,23.733054843014095,52.38320341483518)" />
+    <ns0:rect id="alz_p0203_txt_w14_funzzie" class="color" x="145.5" y="172" width="210.05" height="56.22" style="fill: rgb(541.1592569361521,66.40743836382342,189.57056733575496)" />
+    <ns0:rect id="alz_p0203_txt_w15_it" class="color" x="463.13" y="31.09" width="43.83" height="40.7" style="fill: rgb(115.61933422185243,23.733054843014095,52.38320341483518)" />
+    <ns0:rect id="alz_p0203_txt_w16_will" class="color" x="504.87" y="31.09" width="55.83" height="40.7" style="fill: rgb(52.1959152131576,13.966610165238235,27.0)" />
+    <ns0:rect id="alz_p0203_txt_w17_be" class="color" x="560.7" y="31.09" width="40.7" height="40.7" style="fill: rgb(63.09573444801933,15.848931924611133,31.622776601683793)" />
+    <ns0:rect id="alz_p0203_txt_w18_about" class="color" x="599.83" y="31.09" width="78.78" height="40.7" style="fill: rgb(101.18078258651313,21.71360948035253,46.87216658103186)" />
+    <ns0:rect id="alz_p0203_txt_w19_aliens" class="color" x="678.09" y="31.09" width="90.78" height="40.7" style="fill: rgb(239.88038131399546,38.60674203230342,96.23408959407264)" />
+    <ns0:rect id="alz_p0203_txt_w20_said" class="color" x="463.13" y="71.78" width="61.04" height="40.7" style="fill: rgb(101.18078258651313,21.71360948035253,46.87216658103186)" />
+    <ns0:rect id="alz_p0203_txt_w21_buzz" class="color" x="523.65" y="71.78" width="76.17" height="40.7" style="fill: rgb(115.61933422185243,23.733054843014095,52.38320341483518)" />
+    <ns0:rect id="alz_p0203_txt_w22_alienzz" class="color" x="592.35" y="163" width="195.21" height="61.22" style="fill: rgb(541.1592569361521,66.40743836382342,189.57056733575496)" />
+    <ns0:path id="alz_p0203_obj_buzz1" class="color" d="m157.39,253.35l-73.57,70.65v52.48l30.78,74.09s17.74,101.22,18.78,98.09,145.04-33.39,145.04-33.39l-16.96-48-10.18-48-25.04-86.61,3.13-30.26-72-49.04h.02Z" style="fill: rgb(3699.033116591144,239.18034040617928,940.6040612287404)" />
+    <ns0:polygon id="alz_p0203_obj_fly_guy1" class="color" points="285.22 249.38 271.65 270.33 278.43 303.61 323.83 311 329 262.94 317.83 239.52 285.22 249.38" style="fill: rgb(352.3319491017267,49.88477498225796,132.5745073534124)" />
+    <ns0:polygon id="alz_p0203_obj_buzz2" class="color" points="613.91 245 532.78 297.17 523.65 347.26 678.61 334.74 689.96 296.13 625.39 245 613.91 245" style="fill: rgb(2971.3517462800532,206.68202637700037,783.6612788698955)" />
+    <ns0:polygon id="alz_p0203_obj_fly_guy2" class="color" points="745.04 245 699 245 699 275.85 708.47 295.61 745.04 324 764 295.61 757.23 263.51 745.04 245" style="fill: rgb(765.0819998320297,83.65116420730185,252.98221281347034)" />
+    <ns0:polygon id="alz_p0203_obj_title" class="color" points="539.83 361.87 561.74 401.04 560.7 455.78 689.96 423.43 667.13 375.43 671.1 335.35 539.83 361.87" style="fill: rgb(1635.2859410161277,138.80202495898632,476.42523023030594)" />
+    <ns0:path id="alz_p0203_obj_dr_fly_guy" class="color" d="m606.8,450.57l-58.63,12.52-8.35,42.78,50.09,42.85,49.3-6.33s8.09-60.52,4.96-62.61-37.37-29.22-37.37-29.22h0Z" style="fill: rgb(541.1592569361521,66.40743836382342,189.57056733575496)" />
+    <ns0:polygon id="alz_p0203_obj_dr_rocket" class="color" points="715.13 435.96 715.13 488.13 639.22 470.39 610.04 443.43 678.09 426.41 715.13 435.96" />
+    <ns0:path id="alz_p0203_obj_phone2" class="color" d="m792.35,488.13c-4.17,0-68.87,6.26-68.87,6.26l-8.35,35.48,70.96,18.85,35.48-33.46-29.22-27.13h0Z" style="fill: rgb(101.18078258651313,21.71360948035253,46.87216658103186)" />
+    <ns0:polygon id="alz_p0203_obj_phone1" class="color" points="287.48 335.35 261 419.26 285.01 433.44 301.12 456.83 341.24 450.57 371 372.3 358.7 347.26 287.48 335.35" style="fill: rgb(1062.2683140269505,104.10929003497905,332.55375505322445)" />
+    <ns0:polygon id="alz_p0203_obj_script" class="color" points="263.52 518.42 188.17 543 250.53 572 329 548.72 329 518.42 263.52 518.42" style="fill: rgb(18.11949159194239,6.898648307306074,11.180339887498949)" />
+    <ns0:rect id="alz_p0203_obj_page02" class="color" x="203.3" y="592.65" width="26.09" height="22.96" />
+    <ns0:rect id="alz_p0203_obj_page03" class="color" x="634" y="588" width="32.69" height="32.69" />
+  </ns0:g>
+</ns0:svg>

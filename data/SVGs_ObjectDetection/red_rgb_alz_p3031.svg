@@ -1,0 +1,34 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="12in" height="9in" viewBox="0 0 864 648">
+  <ns0:defs>
+    <ns0:style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        opacity: .5;
+      }
+    </ns0:style>
+  </ns0:defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p3031" class="cls-1" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p3031.jpg" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p3031_txt_w01_okay" class="cls-2" x="30.04" y="27.18" width="81.26" height="38.91" style="fill: rgb(46.87216658103186,0,0)" />
+    <ns0:rect id="alz_p3031_txt_w02_said" class="cls-2" x="111.3" y="27.18" width="57.04" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p3031_txt_w03_buzz" class="cls-2" x="168.35" y="27.18" width="70.26" height="38.91" style="fill: rgb(1.0,0,0)" />
+    <ns0:rect id="alz_p3031_txt_w04_quiet" class="cls-2" x="238.61" y="27.18" width="67.48" height="38.91" />
+    <ns0:rect id="alz_p3031_txt_w05_on" class="cls-2" x="306.09" y="27.18" width="36.69" height="38.91" />
+    <ns0:rect id="alz_p3031_txt_w06_the" class="cls-2" x="342.78" y="27.18" width="42.61" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p3031_txt_w07_set" class="cls-2" x="30.04" y="66.09" width="48.96" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p3031_txt_w08_and" class="cls-2" x="79" y="66.09" width="57.43" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p3031_txt_w09_action" class="cls-2" x="136.43" y="66.09" width="113.57" height="38.91" style="fill: rgb(41.569219381653056,0,0)" />
+    <ns0:polygon id="alz_p3031_obj_buzz" class="cls-2" points="291.94 215.5 169.91 236.52 139.13 287.91 169.91 355.04 204.25 445.39 332.41 448.83 360.62 438.53 383.3 319.58 369.2 267.54 291.94 215.5" style="fill: rgb(2577.7261297507926,0,0)" />
+    <ns0:polygon id="alz_p3031_obj_fly_guy" class="cls-2" points="112.7 328.96 67.48 359.09 61.91 400.83 67.48 438.39 102.26 480.83 148.17 480.83 178.09 456.48 186.43 414.39 170.43 352.13 112.7 328.96" style="fill: rgb(911.3638131942698,0,0)" />
+    <ns0:path id="alz_p3031_obj_phone" class="cls-2" d="m128.7,508.65s1.39,128,3.48,128h173.91l-7.65-135.65-84.17-8.35-85.57,16Z" />
+  </ns0:g>
+</ns0:svg>

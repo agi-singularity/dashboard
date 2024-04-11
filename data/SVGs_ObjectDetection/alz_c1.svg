@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="6in" height="9in" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 432 648">
+  <g id="art">
+    <image id="alz_c1" width="900" height="1350" transform="scale(.48)" xlink:href="../JPGs/alz_c1.jpg" style="fill: none; isolation: isolate;"/>
+  </g>
+  <g id="labels">
+    <rect id="alz_c1_txt_nyt" x="21.6" y="15.4" width="388.8" height="27.6" style="fill: #f0f; isolation: isolate; opacity: .5;"/>
+    <polygon id="alz_c1_txt_title1" points="374 43 21.6 75 29 158 79 164 334.8 135.3 355 133 388 60 374 43" style="fill: rgba(255, 0, 255, .5);"/>
+    <polygon id="alz_c1_txt_title2" points="361 189 370 251 56 286 79 164 355 133 361 189" style="fill: rgba(255, 0, 255, .5);"/>
+    <polygon id="alz_c1_obj_alienzz" points="423 139 358.8 168.2 355 133 410.4 108 432 118 423 139" style="fill: rgba(255, 0, 255, .5);"/>
+    <path id="alz_c1_obj_fly_guy" d="m245,271c-5,3-46,22-46,22h-52l-40,24-13,44,5,57,42,15-27,39-6,37,18,9,43.5,25,54.5,11,59-5,17-39v-49l32,2,13-10-2-25-27-26,12-60-16-43-26-21-41-7Z" style="fill: rgba(255, 0, 255, .5);"/>
+    <rect id="alz_c1_txt_author" x="108" y="593" width="229" height="44" style="fill: rgba(255, 0, 255, .5);"/>
+  </g>
+</svg>
