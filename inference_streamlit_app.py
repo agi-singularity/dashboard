@@ -241,20 +241,8 @@ with tab4:
 
     svgs = glob.glob('*.svg')
 
-    with st.echo():
-    # Everything inside this block will be both printed to the screen
-    # and executed.
-
-        def get_punctuation():
-            return '!!!'
-    
-        greeting = "Hi there, "
-    
-        st.write(greeting, svgs)
-    
-    with st.echo():
-        for svg in svgs:
-            st.write(svg)
+    for svg in svgs:
+        st.write(svg)
     
     #st.markdown('#### Individual Wand Journey Action Data')
     
