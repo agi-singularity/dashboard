@@ -249,10 +249,8 @@ with tab4:
             return '!!!'
     
         greeting = "Hi there, "
-        value = get_user_name()
-        punctuation = get_punctuation()
     
-        st.write(greeting, value, punctuation)
+        st.write(greeting, svgs)
     
     with st.echo():
         for svg in svgs:
