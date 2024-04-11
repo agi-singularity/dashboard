@@ -247,7 +247,7 @@ with tab4:
     #st.write(selected_svg)
     
     st.markdown('#### SVG - Activity Frequency Data')
-    svg_list = glob.glob('data/*.svg')
+    svg_list = glob.glob('data/SVGs_ObjectDetection/*.svg')
     svgs = svg_list.sort()
     selected_svg = st.selectbox('Select SVG file', svg_list)
     
