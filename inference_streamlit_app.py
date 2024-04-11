@@ -248,7 +248,7 @@ with tab4:
     st.markdown('#### SVG - Activity Frequency Data')
     svg_list = glob.glob('data/*.svg')
     svgs = svg_list.sort()
-    selected_svg = st.selectbox('Select SVG file', svgs)
+    selected_svg = st.selectbox('Select SVG file', svg_list)
     
     def render_svg(svg):
         """Renders the given svg string."""
