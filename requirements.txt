@@ -1,5 +1,6 @@
 streamlit
 pandas
+xml
 altair
 plotly
 matplotlib
