@@ -45,6 +45,9 @@ with st.sidebar:
     selected_wand = st.selectbox('Select Wand', wand_list)
     #df_selected_wand = df_selected_action[df_selected_action.wand_identifier == selected_wand]
     df_selected_wand = df[df.wand_identifier == selected_wand]
+
+    svg_list = glob.glob('data/*.svg')
+    selected_svg = st.selectbox('Select SVG file', svg_list)
     
     color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
     selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
@@ -239,10 +242,7 @@ with tab4:
     import textwrap
     import glob
 
-    svgs = glob.glob('data/*.svg')
-
-    for svg in svgs:
-        st.write(svg)
+    st.write(selected_svg)
     
     #st.markdown('#### Individual Wand Journey Action Data')
     
@@ -259,7 +259,7 @@ with tab4:
             </svg>
         """
 
-        svg_file = 'data/opg1_red_rgb_alz_p2425.svg'
+        svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
 
         import xml.dom.minidom
 
