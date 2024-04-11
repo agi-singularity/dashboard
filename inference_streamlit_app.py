@@ -242,11 +242,8 @@ with tab4:
     import base64
     import textwrap
     import glob
-
-    svg_list = glob.glob('data/*.svg')
-    selected_svg = st.selectbox('Select SVG file', svg_list)
     
-    st.write(selected_svg)
+    #st.write(selected_svg)
     
     #st.markdown('#### Individual Wand Journey Action Data')
     
@@ -262,7 +259,10 @@ with tab4:
                 <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
             </svg>
         """
-
+        st.write('## Rendering an SVG in Streamlit')
+        
+        svg_list = glob.glob('data/*.svg')
+        selected_svg = st.selectbox('Select SVG file', svg_list)
         svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
 
         import xml.dom.minidom
@@ -270,7 +270,6 @@ with tab4:
         dom = xml.dom.minidom.parse(svg_file) # or xml.dom.minidom.parseString(xml_string)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
-        st.write('## Rendering an SVG in Streamlit')
     
         # st.write('### SVG Input')
         # st.code(textwrap.dedent(svg), 'svg')
