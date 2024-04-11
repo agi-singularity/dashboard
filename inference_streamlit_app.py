@@ -271,8 +271,8 @@ with tab4:
 
     #svg_sl = treex.tostringlist()
     #svg_str = ET.tostringlist(treex)
-    output = 'alz0405_blue_green.xml'
-    treex.write(output)
+    out = 'alz0405_blue_green.xml'
+    treex.write(out)
     
     def render_svg(svg):
         """Renders the given svg string."""
@@ -285,7 +285,7 @@ with tab4:
         import xml.dom.minidom
         
         #x = ElementInclude.include(rootx)
-        dom = xml.dom.minidom.parse(output) # or 
+        dom = xml.dom.minidom.parse(out) # or 
         #dom = xml.dom.minidom.parseString(output)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
