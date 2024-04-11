@@ -262,7 +262,7 @@ with tab4:
         st.write('## Rendering an SVG in Streamlit')
         
         svg_list = glob.glob('data/*.svg')
-        selected_svg = st.selectbox('Select SVG file', svg_list)
+        selected_svg = st.selectbox('Select SVG file', svg_list.sorted)
         svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
 
         import xml.dom.minidom
