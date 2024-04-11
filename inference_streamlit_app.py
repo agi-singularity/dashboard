@@ -264,8 +264,8 @@ with tab4:
         dom = xml.dom.minidom.parse(svg_file) # or xml.dom.minidom.parseString(xml_string)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
-        # st.write('### SVG Input')
-        # st.code(textwrap.dedent(svg), 'svg')
+        st.write('### SVG Input')
+        st.code(textwrap.dedent(svg), 'svg')
         
         #st.write('### SVG Output')
         render_svg(svg)
