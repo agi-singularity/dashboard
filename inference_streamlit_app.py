@@ -239,7 +239,7 @@ with tab4:
     import textwrap
     import glob
 
-    svgs = glob.glob('*.svg')
+    svgs = glob.glob('data/*.svg')
 
     for svg in svgs:
         st.write(svg)
