@@ -280,7 +280,8 @@ with tab4:
         svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
         import xml.dom.minidom
 
-        dom = xml.dom.minidom.parse(svg_file) # or xml.dom.minidom.parseString(xml_string)
+        #dom = xml.dom.minidom.parse(svg_file) # or 
+        dom = xml.dom.minidom.parseString(treeX)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
         # st.write('### SVG Input')
