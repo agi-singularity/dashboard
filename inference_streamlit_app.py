@@ -270,8 +270,8 @@ with tab4:
         print(grandchild.attrib)
         count += 1
 
-    svg_sl = treex.tostringlist()
-    #svg_str = ET.tostring(treex)
+    #svg_sl = treex.tostringlist()
+    svg_str = ET.tostringlist(treex)
     #treex.write('alz0405_blue_green.xml')
     
     def render_svg(svg):
