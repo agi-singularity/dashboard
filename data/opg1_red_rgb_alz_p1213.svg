@@ -1,0 +1,65 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="12in" height="9in" viewBox="0 0 864 648">
+  <ns0:defs>
+    <ns0:style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f0f;
+        opacity: .5;
+      }
+    </ns0:style>
+  </ns0:defs>
+  <ns0:g id="art">
+    <ns0:image id="alz_p1213" class="cls-1" width="1800" height="1350" transform="scale(.48)" ns1:href="../JPGs/alz_p1213.jpg" />
+  </ns0:g>
+  <ns0:g id="labels">
+    <ns0:rect id="alz_p1213_txt_w01_the" class="cls-2" x="32" y="27.27" width="64.7" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w02_aliens" class="cls-2" x="96.7" y="27.27" width="73.74" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w03_turned" class="cls-2" x="170.43" y="27.27" width="84.87" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w04_on" class="cls-2" x="255.3" y="27.27" width="36.87" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w05_their" class="cls-2" x="292.17" y="27.27" width="66.22" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w06_ray" class="cls-2" x="32" y="66.18" width="45.22" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w07_beam" class="cls-2" x="77.22" y="66.18" width="73.74" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w08_the" class="cls-2" x="150.96" y="66.18" width="52.17" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w09_ray" class="cls-2" x="203.13" y="66.18" width="44.52" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w10_beam" class="cls-2" x="247.65" y="66.18" width="69.43" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w11_pulled" class="cls-2" x="317.08" y="66.18" width="75.27" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w12_the" class="cls-2" x="32" y="105.09" width="45.22" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w13_heroes" class="cls-2" x="77.22" y="105.09" width="85.78" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w14_into" class="cls-2" x="163" y="105.09" width="54" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w15_the" class="cls-2" x="217" y="105.09" width="43.43" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w16_spaceship" class="cls-2" x="260.43" y="105.09" width="126.57" height="38.91" style="fill: rgb(18.520259177452136,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w17_inside" class="cls-2" x="462" y="166.27" width="91" height="38.91" style="fill: rgb(22.627416997969522,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w18_the" class="cls-2" x="553" y="166.27" width="44" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w19_spaceship" class="cls-2" x="597" y="166.27" width="124" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w20_all" class="cls-2" x="721" y="166.27" width="41.87" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w21_the" class="cls-2" x="763.03" y="166.27" width="42.97" height="38.91" style="fill: rgb(2.8284271247461903,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w22_alienz" class="cls-2" x="462" y="205.18" width="77" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w23_jumped" class="cls-2" x="539" y="205.18" width="92" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w24_on" class="cls-2" x="631" y="205.18" width="36.91" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w25_top" class="cls-2" x="667.91" y="205.18" width="46" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w26_of" class="cls-2" x="713.91" y="205.18" width="32.69" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w27_buzz" class="cls-2" x="746.6" y="205.18" width="65.39" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w28_boy" class="cls-2" x="462" y="244.09" width="62" height="38.91" style="fill: rgb(14.696938456699069,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w29_they" class="cls-2" x="524" y="244.09" width="65" height="38.91" style="fill: rgb(5.196152422706632,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w30_tied" class="cls-2" x="589" y="244.09" width="54.43" height="38.91" style="fill: rgb(8.0,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w31_him" class="cls-2" x="643.43" y="244.09" width="48.96" height="38.91" style="fill: rgb(2.8284271247461903,0,0)" />
+    <ns0:rect id="alz_p1213_txt_w32_up" class="cls-2" x="689.43" y="244.09" width="48.96" height="38.91" style="fill: rgb(11.180339887498949,0,0)" />
+    <ns0:path id="alz_p1213_obj_spaceship1" class="cls-2" d="m423.65,277.7c-6.96.7-127.3,30.61-127.3,30.61l-48.7-3.48-34.78,19.17-6.96,18.39,41.74,57.04,26.09,34.09h22.61l42.43-50.09,84.87-38.96v-66.78Z" />
+    <ns0:path id="alz_p1213_obj_aliens" class="cls-2" d="m423.65,256.13c0-4.17-18.09-59.13-18.09-59.13l-50.85-11.27-89.67,32.14,2.78,63.3,28.52,27.13,110.14-26.86,17.17-25.31Z" style="fill: rgb(103.18914671611545,0,0)" />
+    <ns0:path id="alz_p1213_obj_fly_guy" class="cls-2" d="m180.87,343.78c-4.87-.7-103.65-19.78-103.65-19.78,0,0-56.35,19.09-57.74,23.96s-6.96,58.43-6.96,58.43l51.83,41.04,71.3-33.39,46.61-41.74-1.39-28.52Z" style="fill: rgb(70.09279563550022,0,0)" />
+    <ns0:path id="alz_p1213_obj_buzz1" class="cls-2" d="m221.22,382.74c2.78,2.78,29.91,42.43,29.91,42.43l-22.26,59.13-58.43,32.7-56.35-25.04,16.77-75.67,56.27-33.55h34.09Z" style="fill: rgb(181.01933598375618,0,0)" />
+    <ns0:polygon id="alz_p1213_obj_spaceship2" class="cls-2" points="653.22 46.73 544 60.65 512 85.64 504.35 124.55 518.26 158.74 566.26 166.27 616.21 144 713.91 148.3 765.91 139.96 768 91.26 741.93 46.73 685.91 35.61 653.22 46.73" style="fill: rgb(110.30412503619254,0,0)" />
+    <ns0:path id="alz_p1213_obj_buzz2" class="cls-2" d="m768,473.17l-162.09-30.61-66.91,1.39-34.65,42.43s-19.48,44.52-16.7,49.39,43.13,36.87,43.13,36.87l179.48.7,74.26-16.7,18.27-48.7-34.78-34.78Z" style="fill: rgb(252.98221281347034,0,0)" />
+    <ns0:polygon id="alz_p1213_obj_alien1" class="cls-2" points="609.39 320.83 623.3 365.35 616.35 439.78 535.65 442.57 517.57 369.52 528 320.83 562.09 315.26 609.39 320.83" style="fill: rgb(243.55492193753753,0,0)" />
+    <ns0:path id="alz_p1213_obj_alien2" class="cls-2" d="m636.17,324c-1.04,2.39-12.87,37.87-12.87,37.87l-6.96,77.91,63.24,16.7,26.5-67.48-5.57-48.7-32.61-13.91-31.74-2.39Z" />
+    <ns0:path id="alz_p1213_obj_alien3" class="cls-2" d="m724.87,340.3c0,3.48-18.78,59.83-18.78,59.83l-13.7,52.87,70.64,13.91,30.01-48.7-8.53-62.61-42.58-18.78-17.07,3.48Z" />
+    <ns0:rect id="alz_p1213_obj_page13" class="cls-2" x="633.74" y="592.83" width="25.83" height="25.83" />
+  </ns0:g>
+</ns0:svg>
