@@ -250,6 +250,25 @@ with tab4:
     svg_list = glob.glob('data/SVGs_ObjectDetection/*.svg')
     svgs = svg_list.sort()
     selected_svg = st.selectbox('Select SVG file', svg_list)
+
+    import xml.etree.ElementTree as ET
+    treex = ET.parse(selected_svg)
+    rootx = treex.getroot()
+    
+    count = 0
+    for child in rootx:
+      print(count, ': ', child.attrib)
+      for grandchild in child:
+        #print(grandchild.attrib)
+        grandchild.attrib['class'] = 'color'
+        if(count % 2 == 0):
+          grandchild.attrib['style'] = "fill:blue"
+        else:
+          grandchild.attrib['style'] = "fill:green"
+        print(grandchild.attrib)
+        count += 1
+
+    treex.write('alz0405_blue_green.xml')
     
     def render_svg(svg):
         """Renders the given svg string."""
