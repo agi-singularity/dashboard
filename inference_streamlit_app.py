@@ -245,7 +245,10 @@ with tab4:
     
     #st.write(selected_svg)
     
-    #st.markdown('#### Individual Wand Journey Action Data')
+    st.markdown('#### SVG - Activity Frequency Data')
+    svg_list = glob.glob('data/*.svg')
+    svgs = svg_list.sort()
+    selected_svg = st.selectbox('Select SVG file', svgs)
     
     def render_svg(svg):
         """Renders the given svg string."""
@@ -261,9 +264,6 @@ with tab4:
         """
         st.write('## Rendering an SVG in Streamlit')
         
-        svg_list = glob.glob('data/*.svg')
-        svgs = svg_list.sort()
-        selected_svg = st.selectbox('Select SVG file', svgs)
         svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
 
         import xml.dom.minidom
