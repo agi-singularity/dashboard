@@ -281,9 +281,9 @@ with tab4:
         svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
         import xml.dom.minidom
         
-        x = ElementInclude.include(rootx)
+        #x = ElementInclude.include(rootx)
         #dom = xml.dom.minidom.parse(svg_file) # or 
-        dom = xml.dom.minidom.parseString(x)
+        dom = xml.dom.minidom.parseString(rootx)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
         # st.write('### SVG Input')
