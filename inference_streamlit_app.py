@@ -257,25 +257,16 @@ with tab4:
         st.write(html, unsafe_allow_html=True)
     
     def render_svg_example():
-        svg = """
-            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-            </svg>
-        """
-        st.write('## Rendering an SVG in Streamlit')
-        
         svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
-
         import xml.dom.minidom
 
         dom = xml.dom.minidom.parse(svg_file) # or xml.dom.minidom.parseString(xml_string)
         svg = pretty_xml_as_string = dom.toprettyxml()
         
-    
         # st.write('### SVG Input')
         # st.code(textwrap.dedent(svg), 'svg')
-    
-        st.write('### SVG Output')
+        
+        #st.write('### SVG Output')
         render_svg(svg)
     
     if __name__ == '__main__':
