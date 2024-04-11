@@ -262,7 +262,7 @@ with tab4:
         st.write('## Rendering an SVG in Streamlit')
         
         svg_list = glob.glob('data/*.svg')
-        selected_svg = st.selectbox('Select SVG file', svg_list.sorted)
+        selected_svg = st.selectbox('Select SVG file', svg_list.sort())
         svg_file = selected_svg #'data/opg1_red_rgb_alz_p2425.svg'
 
         import xml.dom.minidom
@@ -341,59 +341,5 @@ with tab5:
         st.altair_chart(chart, theme=None, use_container_width=True)
     #from vega_datasets import data
     
-    # @st.cache_data
-    # def get_data():
-    #     source = data.stocks()
-    #     source = source[source.date.gt("2004-01-01")]
-    #     return source
-    
-    # source = get_data()
-    
-    # # Original time series chart. Omitted `get_chart` for clarity
-    # chart = get_chart(source)
-    
-    # Input annotations
-    # ANNOTATIONS = [
-    #     ("Mar 01, 2008", "Pretty good day for GOOG"),
-    #     ("Dec 01, 2007", "Something's going wrong for GOOG & AAPL"),
-    #     ("Nov 01, 2008", "Market starts again thanks to..."),
-    #     ("Dec 01, 2009", "Small crash for GOOG after..."),
-    # ]
-    
-    # # Create a chart with annotations
-    # annotations_df = df1s #pd.DataFrame(ANNOTATIONS, columns=["action_data", "activity_id"])
-    # #annotations_df.date = pd.to_datetime(annotations_df.date)
-    # annotations_df["y"] = 0
-    # annotation_layer = (
-    #     alt.Chart(annotations_df)
-    #     .mark_text(size=5, text="⬇", dx=0, dy=-10, align="center")
-    #     .encode(
-    #         x="action_data:T",
-    #         y=alt.Y("y:Q"),
-    #         tooltip=["action_data"],
-    #     )
-    #     .interactive()
-    # )
-    
-    # # Display both charts together
-    # st.altair_chart((annotation_layer), use_container_width=True)
-
-#     st.markdown('#### Top Activities')
-
-#     st.dataframe(df_selected_activity_sorted,
-#                  column_order=("action_data", "Wand Count", "Event Count"),
-#                  hide_index=True,
-#                  width=None,
-#                  column_config={
-#                     "Activity": st.column_config.TextColumn(
-#                         "activity_id",
-#                     ),
-#                     "Wand": st.column_config.ProgressColumn(
-#                         "Wand Count",
-#                         format="%f",
-#                         min_value=0,
-#                         max_value=max(df['activity_id']),
-#                      )}
-#                  )
-    
+   
    
